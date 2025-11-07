@@ -157,7 +157,7 @@ The convergence of these findings validates the research questions posed in this
 7. World Health Organization. (2023). "WHO Ambient Air Quality Database." https://www.who.int/data/gho/data/themes/air-pollution
 
 8. Drishti IAS. (2025). "World Air Quality Report 2024." https://www.drishtiias.com/daily-updates/daily-news-analysis/world-air-quality-report-2024
-
+   
 ### Health Burden and Regional Studies
 
 9. Wolf, K., et al. (2022). "Long-term exposure to low-level ambient air pollution and incidence of stroke and coronary heart disease." *PMC*, 8988294. https://pmc.ncbi.nlm.nih.gov/articles/PMC8988294/
