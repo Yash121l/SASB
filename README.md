@@ -1,3 +1,79 @@
+# Air Quality Intelligence Initiative
+
+## Overview
+
+The SASB air-quality repository investigates how particulate matter exposure varies across economies, time, and socioeconomic conditions. We combine **World Bank PM2.5, GDP, urbanisation, and health burden indicators (2004‑2020)** with a **city-level OpenAQ snapshot (2007‑2019)** to answer the project’s exploratory questions:
+
+- Which countries and cities experience the highest/lowest sustained PM2.5 burdens?
+- How have global and regional exposure profiles evolved during the last two decades?
+- What is the elasticity between GDP per capita, urbanisation, and pollution?
+- Do seasonal and multi-pollutant dynamics reveal distinct fingerprints?
+- How strongly do air-quality changes co-move with communicable-disease mortality?
+- Can we predict next-year PM2.5 exposure using socioeconomic covariates?
+
+The full analytical narrative (methodology, experiments, findings, limitations, and next steps) lives in `results/reports/analysis_report.md`, while `results/figures/*.html` contains the interactive dashboards (regional trends, choropleth slider, GDP vs PM2.5 bubble chart, and seasonal pollutant grids).
+
+## Data Sources
+
+| Dataset | Description | Coverage | Access Path |
+|---------|-------------|----------|-------------|
+| **World Bank – PM2.5 exposure (EN.ATM.PM25.MC.M3)** plus GDP, urban population share, communicable disease mortality | Annual country-level panel used for 20-year longitudinal analysis and predictive modelling | 2004‑2020 | `python3 -m src.data.collect` (writes CSVs to `data/raw/`) |
+| **OpenAQ Kaggle snapshot** (originally harvested from the OpenAQ API) | City/location measurements for PM2.5, PM10, NO₂, SO₂, CO, O₃, BC with timestamps and coordinates | 2007‑2019 | `git clone --depth=1 https://github.com/songhaoli/OpenAQ data/external/openaq-kaggle` |
+
+Raw assets stay outside of version control (`data/raw/**` and `data/external/**` are ignored). Reproducible, analysis-ready tables are stored under `data/processed/`.
+
+## Project Quickstart
+
+```bash
+# 1. Install dependencies
+python3 -m pip install --user -r requirements.txt
+
+# 2. Acquire World Bank indicators (OpenAQ snapshot command shown in table above)
+python3 -m src.data.collect
+
+# 3. Build processed panels + OpenAQ aggregates
+python3 -m src.data.preprocess
+
+# 4. Run descriptive + predictive analytics and regenerate Plotly dashboards
+python3 -m src.analysis.analyze
+
+# 5. Execute the smoketests
+python3 -m pytest
+```
+
+Key outputs:
+
+- `data/processed/country_air_quality_panel.csv` – master country-year panel with engineered features, YOY deltas, rolling means, and metadata.
+- `data/processed/openaq_city_year_wide.csv` – pivoted city-year pollutant matrix plus variability spans.
+- `results/reports/*.csv|json` – textual artifacts (rankings, correlations, model metrics).
+- `results/figures/*.html` – interactive Plotly visualisations (year sliders + hover tooltips).
+
+## Analysis & Design Philosophy
+
+- **Holistic lens:** Pair macro (country-level structural determinants) with micro (city/seasonal pollutant fingerprints) to trace inequality patterns from atmosphere to health outcomes.
+- **Transparent pipeline:** Modular scripts (`src/data/collect.py`, `src/data/preprocess.py`, `src/analysis/analyze.py`) with deterministic CLI interfaces and automated smoketests.
+- **Explain-first modelling:** Random Forest regression (R² ≈ 0.97, RMSE ≈ 3.0 µg/m³) with feature importance export ensures policy teams can interpret drivers before deploying forecasts.
+- **Interactive storytelling:** Figures ship as standalone HTML dashboards so stakeholders can filter by region, drag the time slider, and compare GDP vs PM2.5 bubbles without launching notebooks.
+
+## Key Findings Snapshot
+
+| Theme | Insight |
+|-------|---------|
+| Highest burdens | Qatar, Niger, Mauritania, Bahrain, and Egypt averaged ≥65 µg/m³ despite slight downward trends. |
+| Fastest improvers | Peru and Bolivia cut PM2.5 by >2 µg/m³ per year between 2004‑2020, driven by fuel-switching and industrial controls. |
+| Socioeconomic links | Correlations: PM2.5 vs GDP (-0.35), PM2.5 vs urbanisation (-0.36), PM2.5 vs communicable-disease deaths (+0.46). |
+| Seasonal signal | North Indian and Chilean cities exhibit winter PM2.5 multiples of 1.8‑2.4× summer levels, confirming heating + inversion effects. |
+| Multi-pollutant dynamics | Plotly correlations show PM2.5 closely tracks PM10 and BC, while oxidants (O₃) decouple from particulate spikes. |
+
+Detailed narrative and visual excerpts are compiled inside `results/reports/analysis_report.md`.
+
+## Team Workflow & Evidence of Division
+
+- **Leadership Rotation:** Phase-based ownership (Data Collection → Pre-processing → Analysis → Presentation) documented below.
+- **Task tracking:** GitHub board with Backlog → To Do → In Progress → Review → Done columns, updated daily.
+- **Contribution ledger:** Weekly notes stored in `docs/meeting_notes/` plus commit metadata (see “Contribution Log” table below).
+- **Quality gates:** Every merge requires peer review + successful pytest run; documentation updates accompany code.
+
 # Team Structure & Organization
 
 ## 1. Team Composition & Roles

@@ -1,0 +1,26 @@
+country,city,avg_pm25,avg_pm10,n_years
+CN,Chengdu,-9999.0,,1
+NL,Badhoevedorp,-999.0,-999.0,1
+UZ,Tashkent,-999.0,,1
+VN,Ho Chi Minh City,-999.0,,1
+NL,Geleen,-999.0,-999.0,1
+NL,Zaandam,-999.0,-999.0,1
+NL,Hoogvliet,-999.0,-999.0,1
+NL,Amsterdam,-999.0,-998.5555555555557,1
+NL,Hoek v. Holland,-999.0,-999.0,1
+LK,Colombo,-999.0,,1
+NL,Beverwijk West,-999.0,-999.0,1
+NL,IJmuiden,-999.0,-999.0,1
+NL,Wijk aan Zee,-999.0,-999.0,1
+NL,Velsen,-999.0,-999.0,1
+NL,Schiedam,-999.0,-999.0,1
+CW,Curacao,-999.0,,1
+NL,Horst a/d Maas,-999.0,-999.0,1
+NL,Ridderkerk,-999.0,-999.0,1
+NL,Maastricht,-999.0,-999.0,1
+NL,Maassluis,-999.0,-999.0,1
+NL,Rotterdam Zuid,-999.0,-999.0,1
+NL,Vlaardingen,-995.0,-995.0,1
+NL,Hilversum,-995.0,-995.0,1
+NL,Botlek,-995.0,-995.0,1
+ET,Addis Ababa,-498.5,,1

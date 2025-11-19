@@ -1,0 +1,22 @@
+__pycache__/
+.ipynb_checkpoints
+.DS_Store
+.env
+*.env
+
+# Data lakehouse
+data/raw/**
+!data/raw/.gitkeep
+data/external/**
+!data/external/.gitkeep
+
+# Virtual environments
+venv/
+.venv/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Results caches
+results/figures/*.tmp

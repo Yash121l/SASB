@@ -1,0 +1,26 @@
+country,city,avg_pm25,avg_pm10,n_years
+SG,Singapore,282.9,,1
+MX,GUANAJUATO,231.11,94.84615384615384,3
+IN,Faridabad,213.5,372.0,2
+IN,Jodhpur,211.51500000000001,454.65,3
+IN,Varanasi,189.5,376.0,2
+CL,Linares,189.0,,1
+IN,Gurgaon,170.84,132.94,2
+BA,Živinice,152.3,,2
+CL,Balneario Curanilahue,147.0,,1
+IN,Muzaffarpur,144.0,,2
+CN,镇江市,142.0,148.0,1
+IN,Lucknow,136.79,,2
+IN,Singrauli,134.0,169.0,1
+IN,Patna,126.5,,2
+MN,Ulaanbaatar,126.11111111111111,139.5,3
+CN,吐鲁番地区,123.0,219.0,1
+PL,Otwock,122.675,133.8,2
+CN,商丘市,118.8,137.4,1
+IN,Ballabgarh,117.57,449.29,1
+CL,Puren,115.5,140.0,2
+IN,Baghpat,110.0,175.0,1
+IN,Ghaziabad,110.0,444.0,1
+PL,Siedlce,109.705,112.41000000000001,2
+IN,Ajmer,109.53,216.25,1
+CN,Beijing,109.5,,2
