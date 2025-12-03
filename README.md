@@ -25,6 +25,10 @@ Raw assets stay outside of version control (`data/raw/**` and `data/external/**`
 ## Project Quickstart
 
 ```bash
+# 0. (Optional) Orchestrate everything + tests
+chmod +x run_pipeline.sh
+./run_pipeline.sh
+
 # 1. Install dependencies
 python3 -m pip install --user -r requirements.txt
 
@@ -39,7 +43,16 @@ python3 -m src.analysis.analyze
 
 # 5. Execute the smoketests
 python3 -m pytest
+
+# 6. Launch the FastAPI backend (new app/ layout)
+uvicorn app.backend.main:app --reload --port 8000
+
+# 7. Launch the React frontend
+cd app/frontend && npm install && npm run dev
 ```
+
+Use environment flags (`START_YEAR`, `END_YEAR`, `INDICATORS`, `SKIP_*`) with `run_pipeline.sh` to
+customise or skip stages during automation.
 
 Key outputs:
 
@@ -47,6 +60,40 @@ Key outputs:
 - `data/processed/openaq_city_year_wide.csv` – pivoted city-year pollutant matrix plus variability spans.
 - `results/reports/*.csv|json` – textual artifacts (rankings, correlations, model metrics).
 - `results/figures/*.html` – interactive Plotly visualisations (year sliders + hover tooltips).
+
+## Interactive Web + API Layer
+
+- **FastAPI backend (`app/backend/main.py`):** Serves `/api/*` endpoints for region trends, GDP vs
+  PM2.5 slices, country/city leaderboards, pollutant correlation matrices, seasonal fingerprints,
+  highlights, the new policy-simulation endpoint, and a research/resources registry. Launch locally
+  with `uvicorn app.backend.main:app --reload` and view `http://localhost:8000/health` for status.
+- **React frontend (`app/frontend/`):** Vite + React + Plotly dashboard with three routes:
+  1. **Insights:** mirrors our exploratory analysis with interactive charts, tables, and correlations.
+  2. **Policy Lab:** sliders for GDP, urbanisation, and communicable-disease deaths backed by the
+     `/api/policy-simulate` endpoint; surfaces predicted PM2.5 plus WHO-style severity labels.
+  3. **Research Hub:** curated links to datasets, reports, figure exports, and cited literature.
+  Run via `npm install && npm run dev` (defaults to `http://localhost:4173`) and point the frontend to
+  the backend with `VITE_API_BASE_URL` if the services live on different origins.
+- **Deployment playbook:** Updated instructions for the new `app/` layout live in
+  `docs/deployment.md`.
+
+### Application Directory Snapshot
+
+```
+app/
+├── backend/
+│   ├── __init__.py
+│   └── main.py          # FastAPI entrypoint (uvicorn app.backend.main:app)
+└── frontend/
+    ├── index.html
+    ├── package.json
+    ├── vite.config.js
+    └── src/
+        ├── App.jsx      # Routes: Insights, Policy Lab, Research Hub
+        ├── pages/
+        ├── components/
+        └── styles/
+```
 
 ## Analysis & Design Philosophy
 
