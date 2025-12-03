@@ -13,7 +13,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.cors import CORSMiddleware
 from sklearn.linear_model import LinearRegression
-from sklearn.cluster import KMeans
+from sklearn.cluster import KMeans, DBSCAN
 from sklearn.preprocessing import StandardScaler
 
 
@@ -304,6 +304,48 @@ def _compute_elbow(panel: pd.DataFrame) -> Dict[str, List[float]]:
     return {"k": k_values, "inertia": inertias}
 
 
+
+
+def _compute_dbscan(panel: pd.DataFrame, eps: float = 0.5, min_samples: int = 5) -> Dict[str, Any]:
+    feature_cols = [
+        "gdp_per_capita_constant_2015usd",
+        "urban_population_pct",
+        "pm25_exposure",
+        "communicable_disease_death_pct",
+    ]
+    latest_year = panel["year"].max()
+    data = panel[panel["year"] == latest_year].dropna(subset=feature_cols).copy()
+    
+    if data.empty:
+        return {}
+
+    X = data[feature_cols]
+    scaler = StandardScaler()
+    X_scaled = scaler.fit_transform(X)
+    
+    dbscan = DBSCAN(eps=eps, min_samples=min_samples)
+    data["cluster"] = dbscan.fit_predict(X_scaled)
+    
+    # Calculate cluster centers (excluding noise which is -1)
+    unique_clusters = sorted(data["cluster"].unique())
+    centers = []
+    for c in unique_clusters:
+        if c == -1:
+            continue
+        cluster_data = data[data["cluster"] == c]
+        center_stats = cluster_data[feature_cols].mean().to_dict()
+        center_stats["cluster_id"] = int(c)
+        center_stats["size"] = int(len(cluster_data))
+        centers.append(center_stats)
+
+    return {
+        "data": _frame_to_records(data, columns=["iso3", "country_name", "region", "cluster", *feature_cols]),
+        "centers": centers,
+        "features": feature_cols,
+        "noise_count": int(len(data[data["cluster"] == -1]))
+    }
+
+
 def _categorise_pm25(value: float) -> str:
     if value < 12:
         return "Good"
@@ -575,7 +617,11 @@ def elbow_analysis() -> Dict[str, List[float]]:
 
 
 @app.get("/api/analysis/elbow")
-def elbow_analysis() -> Dict[str, List[float]]:
+@app.get("/api/analysis/dbscan")
+def dbscan_analysis(
+    eps: float = Query(0.5, gt=0.1, le=5.0),
+    min_samples: int = Query(5, ge=2, le=20)
+) -> Dict[str, Any]:
     store = _get_store()
     panel = store["panel"]
-    return _compute_elbow(panel)
+    return _compute_dbscan(panel, eps=eps, min_samples=min_samples)
