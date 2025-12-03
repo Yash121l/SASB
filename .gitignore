@@ -9,6 +9,7 @@ data/raw/**
 !data/raw/.gitkeep
 data/external/**
 !data/external/.gitkeep
+data/permissions.json
 
 # Virtual environments
 venv/
