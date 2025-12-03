@@ -16,7 +16,8 @@ venv/
 
 # Node
 node_modules/
-app/frontend/node_modules/
+app/Frontend/node_modules/
+app/Frontend/dist/
 
 # VS Code / IDE
 .vscode/
