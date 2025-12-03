@@ -3,9 +3,11 @@ import { NavLink, Route, Routes } from 'react-router-dom';
 import Dashboard from './pages/Dashboard.jsx';
 import PolicyLab from './pages/PolicyLab.jsx';
 import Resources from './pages/Resources.jsx';
+import ClusteringAnalysis from './pages/ClusteringAnalysis.jsx';
 
 const navLinks = [
   { to: '/', label: 'Insights' },
+  { to: '/analysis', label: 'Analysis' },
   { to: '/policy', label: 'Policy Lab' },
   { to: '/resources', label: 'Research Hub' },
 ];
@@ -32,6 +34,7 @@ export default function App() {
       <main>
         <Routes>
           <Route path="/" element={<Dashboard />} />
+          <Route path="/analysis" element={<ClusteringAnalysis />} />
           <Route path="/policy" element={<PolicyLab />} />
           <Route path="/resources" element={<Resources />} />
         </Routes>

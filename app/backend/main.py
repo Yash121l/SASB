@@ -11,7 +11,10 @@ from typing import Any, Dict, List
 import pandas as pd
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.middleware.cors import CORSMiddleware
 from sklearn.linear_model import LinearRegression
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -234,6 +237,71 @@ def _train_policy_model(panel: pd.DataFrame) -> Dict[str, Any] | None:
             "median": X.median().to_dict(),
         },
     }
+
+
+def _compute_clusters(panel: pd.DataFrame, n_clusters: int = 4) -> Dict[str, Any]:
+    feature_cols = [
+        "gdp_per_capita_constant_2015usd",
+        "urban_population_pct",
+        "pm25_exposure",
+        "communicable_disease_death_pct",
+    ]
+    # Filter for latest year to avoid duplicates per country in clustering
+    latest_year = panel["year"].max()
+    data = panel[panel["year"] == latest_year].dropna(subset=feature_cols).copy()
+    
+    if data.empty:
+        return {}
+
+    X = data[feature_cols]
+    scaler = StandardScaler()
+    X_scaled = scaler.fit_transform(X)
+    
+    kmeans = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
+    data["cluster"] = kmeans.fit_predict(X_scaled)
+    
+    # Calculate cluster centers in original scale (approximate)
+    centers = []
+    for i in range(n_clusters):
+        cluster_data = data[data["cluster"] == i]
+        center_stats = cluster_data[feature_cols].mean().to_dict()
+        center_stats["cluster_id"] = i
+        center_stats["size"] = int(len(cluster_data))
+        centers.append(center_stats)
+
+    return {
+        "data": _frame_to_records(data, columns=["iso3", "country_name", "region", "cluster", *feature_cols]),
+        "centers": centers,
+        "features": feature_cols
+    }
+
+
+def _compute_elbow(panel: pd.DataFrame) -> Dict[str, List[float]]:
+    feature_cols = [
+        "gdp_per_capita_constant_2015usd",
+        "urban_population_pct",
+        "pm25_exposure",
+        "communicable_disease_death_pct",
+    ]
+    latest_year = panel["year"].max()
+    data = panel[panel["year"] == latest_year].dropna(subset=feature_cols).copy()
+    
+    if data.empty:
+        return {"k": [], "inertia": []}
+
+    X = data[feature_cols]
+    scaler = StandardScaler()
+    X_scaled = scaler.fit_transform(X)
+    
+    inertias = []
+    k_values = list(range(1, 11))
+    
+    for k in k_values:
+        kmeans = KMeans(n_clusters=k, random_state=42, n_init=10)
+        kmeans.fit(X_scaled)
+        inertias.append(float(kmeans.inertia_))
+        
+    return {"k": k_values, "inertia": inertias}
 
 
 def _categorise_pm25(value: float) -> str:
@@ -490,3 +558,24 @@ def policy_simulate(
         "category": category,
         "guidance": "Estimates derived from linearised socioeconomic relationships (Random Forest insights).",
     }
+
+
+@app.get("/api/analysis/clustering")
+def clustering_analysis(n_clusters: int = Query(4, ge=2, le=8)) -> Dict[str, Any]:
+    store = _get_store()
+    panel = store["panel"]
+    return _compute_clusters(panel, n_clusters=n_clusters)
+
+
+@app.get("/api/analysis/elbow")
+def elbow_analysis() -> Dict[str, List[float]]:
+    store = _get_store()
+    panel = store["panel"]
+    return _compute_elbow(panel)
+
+
+@app.get("/api/analysis/elbow")
+def elbow_analysis() -> Dict[str, List[float]]:
+    store = _get_store()
+    panel = store["panel"]
+    return _compute_elbow(panel)
