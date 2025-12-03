@@ -121,6 +121,7 @@ class TestPermissionManager:
             notes="Not approved",
         )
         assert denied.status == PermissionStatus.DENIED
+        assert denied.granted_by == "Admin"  # Stores who denied
 
     def test_revoke_permission(self, manager):
         """Test revoking a granted permission."""
@@ -132,10 +133,11 @@ class TestPermissionManager:
         manager.grant_permission(request.request_id, "Admin")
         revoked = manager.revoke_permission(
             request_id=request.request_id,
-            revoked_by="Admin",
+            revoked_by="SecurityTeam",
             notes="Access no longer needed",
         )
         assert revoked.status == PermissionStatus.REVOKED
+        assert revoked.granted_by == "SecurityTeam"  # Stores who revoked
 
     def test_grant_non_pending_raises_error(self, manager):
         """Test that granting a non-pending request raises an error."""

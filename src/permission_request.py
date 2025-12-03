@@ -245,6 +245,7 @@ class PermissionManager:
             raise ValueError(f"Cannot revoke request {request_id} - status is {request.status.value}")
 
         request.status = PermissionStatus.REVOKED
+        request.granted_by = revoked_by  # Store who revoked
         request.updated_at = datetime.now(timezone.utc).isoformat()
         if notes:
             request.notes = notes
