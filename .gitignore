@@ -25,3 +25,5 @@ app/Frontend/dist/
 
 # Results caches
 results/figures/*.tmp
+
+.vite

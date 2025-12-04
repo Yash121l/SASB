@@ -40,7 +40,7 @@ export default function App() {
         </Routes>
       </main>
       <footer>
-        Built with ❤️ using React + FastAPI · <a href="../docs/deployment.md" target="_blank">Deployment Guide</a>
+        Built with ❤️ using React + FastAPI · <a href="../docs/deployment.md" target="_blank">By Team SASB</a>
       </footer>
     </div>
   );
