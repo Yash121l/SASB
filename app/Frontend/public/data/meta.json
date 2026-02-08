@@ -1,0 +1,50 @@
+{
+  "year_min": 2004,
+  "year_max": 2020,
+  "latest_year": 2020,
+  "country_count": 244,
+  "city_count": 2425,
+  "region_count": 8,
+  "regions": [
+    "Aggregates",
+    "East Asia & Pacific",
+    "Europe & Central Asia",
+    "Latin America & Caribbean ",
+    "Middle East, North Africa, Afghanistan & Pakistan",
+    "North America",
+    "South Asia",
+    "Sub-Saharan Africa "
+  ],
+  "pollutants": [
+    "bc",
+    "co",
+    "no2",
+    "o3",
+    "pm10",
+    "pm25",
+    "so2"
+  ],
+  "policy_defaults": {
+    "gdp_per_capita": 5078.33,
+    "urban_population_pct": 55.9,
+    "communicable_disease_death_pct": 14.13
+  },
+  "refreshed_at": "2026-02-08T15:17:55",
+  "policy_stats": {
+    "min": {
+      "gdp_per_capita_constant_2015usd": 255.078218433565,
+      "urban_population_pct": 9.139,
+      "communicable_disease_death_pct": 1.20853070612295
+    },
+    "max": {
+      "gdp_per_capita_constant_2015usd": 112417.876989455,
+      "urban_population_pct": 100.0,
+      "communicable_disease_death_pct": 69.3369733009343
+    },
+    "median": {
+      "gdp_per_capita_constant_2015usd": 4672.66408678635,
+      "urban_population_pct": 54.057,
+      "communicable_disease_death_pct": 14.1294278660707
+    }
+  }
+}

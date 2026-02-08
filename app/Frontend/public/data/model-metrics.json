@@ -1,0 +1,49 @@
+{
+  "metrics": {
+    "rmse": 3.005980693877258,
+    "mae": 1.5673027530603514,
+    "r2": 0.9701128022714082
+  },
+  "top_features": [
+    [
+      "pm25_lag_1",
+      0.9809631167268296
+    ],
+    [
+      "urban_population_pct_yoy_delta",
+      0.0036600602748435435
+    ],
+    [
+      "urban_population_pct",
+      0.003228946003580448
+    ],
+    [
+      "gdp_per_capita_constant_2015usd",
+      0.0030563949276109577
+    ],
+    [
+      "communicable_disease_death_pct_yoy_delta",
+      0.0030480911389500808
+    ],
+    [
+      "gdp_per_capita_constant_2015usd_yoy_delta",
+      0.0027892038984451023
+    ],
+    [
+      "communicable_disease_death_pct",
+      0.0021149990438890116
+    ],
+    [
+      "income_group_Lower middle income",
+      0.00041204854912450946
+    ],
+    [
+      "region_Sub-Saharan Africa ",
+      0.00023054802795647054
+    ],
+    [
+      "region_Middle East, North Africa, Afghanistan & Pakistan",
+      0.00012329617410222993
+    ]
+  ]
+}

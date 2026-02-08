@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "iso3": "TUV",
+      "country_name": "Tuvalu",
+      "region": "East Asia & Pacific",
+      "income_group": "Upper middle income",
+      "pm25_mean": 5.7551779314,
+      "pm25_latest": 5.9178010559,
+      "pm25_peak": 6.2009462752,
+      "pm25_trend": 0.0054897454
+    },
+    {
+      "iso3": "NRU",
+      "country_name": "Nauru",
+      "region": "East Asia & Pacific",
+      "income_group": "High income",
+      "pm25_mean": 5.8899498615,
+      "pm25_latest": 6.0643549321,
+      "pm25_peak": 6.4425664427,
+      "pm25_trend": 0.0033492037
+    },
+    {
+      "iso3": "ISL",
+      "country_name": "Iceland",
+      "region": "Europe & Central Asia",
+      "income_group": "High income",
+      "pm25_mean": 6.2057439642,
+      "pm25_latest": 5.105548275,
+      "pm25_peak": 7.1933463848,
+      "pm25_trend": -0.1280071602
+    },
+    {
+      "iso3": "FIN",
+      "country_name": "Finland",
+      "region": "Europe & Central Asia",
+      "income_group": "High income",
+      "pm25_mean": 6.3602017436,
+      "pm25_latest": 4.8951809022,
+      "pm25_peak": 7.6366392008,
+      "pm25_trend": -0.1829179069
+    },
+    {
+      "iso3": "GRL",
+      "country_name": "Greenland",
+      "region": "Europe & Central Asia",
+      "income_group": "High income",
+      "pm25_mean": 6.4419540769,
+      "pm25_latest": 6.5562475418,
+      "pm25_peak": 7.4921548326,
+      "pm25_trend": 0.0147630279
+    },
+    {
+      "iso3": "ASM",
+      "country_name": "American Samoa",
+      "region": "East Asia & Pacific",
+      "income_group": "High income",
+      "pm25_mean": 6.4719558957,
+      "pm25_latest": 6.7151473951,
+      "pm25_peak": 6.9817455665,
+      "pm25_trend": 0.0196683722
+    }
+  ]
+}

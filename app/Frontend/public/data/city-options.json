@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "city": "Singapore",
+      "country": "SG",
+      "avg_pm25": 282.9
+    },
+    {
+      "city": "GUANAJUATO",
+      "country": "MX",
+      "avg_pm25": 231.11
+    },
+    {
+      "city": "Faridabad",
+      "country": "IN",
+      "avg_pm25": 213.5
+    },
+    {
+      "city": "Jodhpur",
+      "country": "IN",
+      "avg_pm25": 211.51500000000001
+    },
+    {
+      "city": "Varanasi",
+      "country": "IN",
+      "avg_pm25": 189.5
+    },
+    {
+      "city": "Linares",
+      "country": "CL",
+      "avg_pm25": 189.0
+    },
+    {
+      "city": "Gurgaon",
+      "country": "IN",
+      "avg_pm25": 170.84
+    },
+    {
+      "city": "\u017divinice",
+      "country": "BA",
+      "avg_pm25": 152.3
+    },
+    {
+      "city": "Balneario Curanilahue",
+      "country": "CL",
+      "avg_pm25": 147.0
+    },
+    {
+      "city": "Muzaffarpur",
+      "country": "IN",
+      "avg_pm25": 144.0
+    },
+    {
+      "city": "\u9547\u6c5f\u5e02",
+      "country": "CN",
+      "avg_pm25": 142.0
+    },
+    {
+      "city": "Lucknow",
+      "country": "IN",
+      "avg_pm25": 136.79
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "most_polluted": {
+    "country": "Qatar",
+    "pm25_mean": 88.13,
+    "region": "Middle East, North Africa, Afghanistan & Pakistan"
+  },
+  "cleanest": {
+    "country": "Tuvalu",
+    "pm25_mean": 5.76,
+    "region": "East Asia & Pacific"
+  },
+  "fastest_improving": {
+    "country": "Peru",
+    "trend": -2.48,
+    "region": "Latin America & Caribbean "
+  },
+  "fastest_deteriorating": {
+    "country": "Mongolia",
+    "trend": 0.78,
+    "region": "East Asia & Pacific"
+  }
+}

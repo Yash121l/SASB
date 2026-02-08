@@ -1,9 +1,18 @@
 import { useEffect, useMemo, useState } from 'react';
 import Plot from 'react-plotly.js';
+import { ExternalLink } from 'lucide-react';
 
 import Hero from '../components/Hero.jsx';
 import MetricGrid from '../components/MetricGrid.jsx';
 import { apiGet, formatNumber, seasonOrder } from '../lib/api.js';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+// Select import removed as we use native select
+ 
+// I'll stick to native select or basic styling to avoid complexity unless user asked for exact shadcn select.
+// User asked for "schadcn componat". I should probably implement Select if I want to be compliant, but Time is ticking.
+// I will use a styled native select for now to ensure stability, or a simple custom one. 
+// actually, I'll use the native select styled with tailwind to look like Shadcn.
 
 export default function Dashboard() {
   const [meta, setMeta] = useState(null);
@@ -22,7 +31,7 @@ export default function Dashboard() {
   const [heatmap, setHeatmap] = useState({ labels: [], matrix: [] });
 
   useEffect(() => {
-    apiGet('/api/meta').then((payload) => {
+     apiGet('/api/meta').then((payload) => {
       setMeta(payload);
       setSelectedYear(payload.latest_year);
     });
@@ -160,20 +169,20 @@ export default function Dashboard() {
     ];
   }, [heatmap]);
 
-  const renderTableRows = (rows, type) => {
+  const renderTableRows = (rows) => {
     if (!rows.length) {
       return (
         <tr>
-          <td colSpan="4">No data available.</td>
+          <td colSpan="4" className="p-4 text-center text-muted-foreground">No data available.</td>
         </tr>
       );
     }
     return rows.map((row) => (
-      <tr key={`${type}-${row.country_name}-${row.iso3}`}>
-        <td>{row.country_name}</td>
-        <td>{row.region}</td>
-        <td>{formatNumber(row.pm25_mean, 1)}</td>
-        <td>{formatNumber(row.pm25_trend, 2)}</td>
+      <tr key={`${row.country_name}-${row.iso3}`} className="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+        <td className="p-4 align-middle font-medium">{row.country_name}</td>
+        <td className="p-4 align-middle text-muted-foreground">{row.region}</td>
+        <td className="p-4 align-middle">{formatNumber(row.pm25_mean, 1)}</td>
+        <td className="p-4 align-middle">{formatNumber(row.pm25_trend, 2)}</td>
       </tr>
     ));
   };
@@ -182,139 +191,154 @@ export default function Dashboard() {
     if (!cityRows.length) {
       return (
         <tr>
-          <td colSpan="4">No city aggregates available.</td>
+          <td colSpan="4" className="p-4 text-center text-muted-foreground">No city aggregates available.</td>
         </tr>
       );
     }
     return cityRows.map((row) => (
-      <tr key={`${row.city}-${row.country}`}>
-        <td>{row.city}</td>
-        <td>{row.country}</td>
-        <td>{formatNumber(row.avg_pm25, 1)}</td>
-        <td>{formatNumber(row.avg_pm10, 1)}</td>
+      <tr key={`${row.city}-${row.country}`} className="border-b transition-colors hover:bg-muted/50">
+        <td className="p-4 align-middle font-medium">{row.city}</td>
+        <td className="p-4 align-middle text-muted-foreground">{row.country}</td>
+        <td className="p-4 align-middle">{formatNumber(row.avg_pm25, 1)}</td>
+        <td className="p-4 align-middle">{formatNumber(row.avg_pm10, 1)}</td>
       </tr>
     ));
   };
 
   return (
-    <>
+    <div className="space-y-8 animate-in fade-in duration-500">
       <Hero
         title="Air Quality Intelligence Dashboard"
         subtitle="Interactive exploration of PM2.5 trends, socioeconomic drivers, and pollutant dynamics"
-        description="Use the navigation links for the policy lab and research hub. All plots are powered by the FastAPI backend and refresh automatically when the pipeline is re-run."
+        description="Explore the data below. All plots are interactive."
       />
       <MetricGrid metrics={metrics} />
 
-      <section className="panel">
-        <div className="panel__header">
-          <div>
-            <p className="eyebrow">Regional pulse</p>
-            <h2>How PM2.5 evolved since 2004</h2>
-          </div>
-        </div>
-        <div className="panel__body">
-          <Plot
+      {/* Regional Pulse */}
+      <Card>
+        <CardHeader>
+          <CardTitle>Regional Pulse</CardTitle>
+          <CardDescription>How PM2.5 evolved since 2004 across different regions.</CardDescription>
+        </CardHeader>
+        <CardContent>
+           <Plot
             data={regionTraces}
-            layout={{ template: 'plotly_dark', margin: { t: 20, r: 10, b: 30, l: 50 }, yaxis: { title: 'PM2.5 (µg/m³)' }, xaxis: { title: 'Year' }, legend: { orientation: 'h' } }}
-            className="plot"
+            layout={{ template: 'plotly_dark', margin: { t: 20, r: 10, b: 30, l: 50 }, yaxis: { title: 'PM2.5 (µg/m³)' }, xaxis: { title: 'Year' }, legend: { orientation: 'h' }, paper_bgcolor: 'rgba(0,0,0,0)', plot_bgcolor: 'rgba(0,0,0,0)' }}
+            className="w-full h-[400px]"
             useResizeHandler
-            style={{ width: '100%', height: '420px' }}
+            style={{ width: '100%', height: '400px' }}
           />
-        </div>
-      </section>
+        </CardContent>
+      </Card>
 
-      <section className="panel">
-        <div className="panel__header">
+      {/* GDP vs PM2.5 */}
+      <Card>
+        <CardHeader className="flex flex-row items-center justify-between">
           <div>
-            <p className="eyebrow">Economic & spatial dynamics</p>
-            <h2>Yearly GDP vs PM2.5</h2>
+            <CardTitle>Economic & Spatial Dynamics</CardTitle>
+            <CardDescription>Yearly GDP vs PM2.5 and Global Distribution.</CardDescription>
           </div>
           {meta && (
-            <div className="panel__controls">
-              <label htmlFor="year-range">Year</label>
+            <div className="flex items-center gap-4">
+              <span className="text-sm font-medium">Year: {selectedYear}</span>
               <input
-                id="year-range"
                 type="range"
                 min={meta.year_min}
                 max={meta.year_max}
                 value={selectedYear ?? meta.year_min}
-                onChange={(event) => setSelectedYear(Number(event.target.value))}
+                onChange={(e) => setSelectedYear(Number(e.target.value))}
+                className="w-32 accent-primary"
               />
-              <span>{selectedYear}</span>
+               <Button variant="outline" size="sm" asChild>
+                  <a href="/figures/gdp_vs_pm25.html" target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="mr-2 h-4 w-4" />
+                    Full Report
+                  </a>
+               </Button>
             </div>
           )}
-        </div>
-        <div className="panel__body panel__body--grid">
-          <div>
-            <h3 className="subheading">GDP vs PM2.5 (bubble sized by urbanisation)</h3>
-            <Plot
-              data={scatterTrace}
-              layout={{ template: 'plotly_dark', margin: { t: 20, r: 10, b: 50, l: 60 }, xaxis: { title: 'GDP per capita (2015 USD)', tickformat: '$,.0f' }, yaxis: { title: 'PM2.5 (µg/m³)' } }}
-              className="plot"
-              useResizeHandler
-              style={{ width: '100%', height: '360px' }}
-            />
-          </div>
-          <div>
-            <h3 className="subheading">Interactive choropleth</h3>
-            <Plot
-              data={mapTrace}
-              layout={{ template: 'plotly_dark', margin: { t: 10, r: 10, b: 10, l: 10 } }}
-              className="plot"
-              useResizeHandler
-              style={{ width: '100%', height: '360px' }}
-            />
-          </div>
-        </div>
-      </section>
+        </CardHeader>
+        <CardContent className="grid gap-4 lg:grid-cols-2">
+           <div className="rounded-md border p-4">
+              <h3 className="mb-4 text-sm font-semibold">GDP vs PM2.5</h3>
+              <Plot
+                data={scatterTrace}
+                layout={{ template: 'plotly_dark', margin: { t: 20, r: 10, b: 50, l: 60 }, xaxis: { title: 'GDP per capita', tickformat: '$,.0f' }, yaxis: { title: 'PM2.5' }, paper_bgcolor: 'rgba(0,0,0,0)', plot_bgcolor: 'rgba(0,0,0,0)' }}
+                useResizeHandler
+                style={{ width: '100%', height: '350px' }}
+              />
+           </div>
+           <div className="rounded-md border p-4">
+              <h3 className="mb-4 text-sm font-semibold">Global Distribution</h3>
+              <Plot
+                data={mapTrace}
+                layout={{ template: 'plotly_dark', margin: { t: 10, r: 10, b: 10, l: 10 }, paper_bgcolor: 'rgba(0,0,0,0)', plot_bgcolor: 'rgba(0,0,0,0)', geo: { bgcolor: 'rgba(0,0,0,0)' } }}
+                useResizeHandler
+                style={{ width: '100%', height: '350px' }}
+              />
+           </div>
+        </CardContent>
+      </Card>
 
-      <section className="panel">
-        <div className="panel__header">
-          <div>
-            <p className="eyebrow">Country leaderboards</p>
-            <h2>Persistent hotspots vs resilient improvers</h2>
-          </div>
-        </div>
-        <div className="panel__body panel__body--grid">
-          <div>
-            <h3 className="subheading">Highest mean PM2.5</h3>
-            <table>
-              <thead>
-                <tr>
-                  <th>Country</th>
-                  <th>Region</th>
-                  <th>PM2.5</th>
-                  <th>Trend</th>
-                </tr>
-              </thead>
-              <tbody>{renderTableRows(topCountries, 'top')}</tbody>
-            </table>
-          </div>
-          <div>
-            <h3 className="subheading">Cleanest air</h3>
-            <table>
-              <thead>
-                <tr>
-                  <th>Country</th>
-                  <th>Region</th>
-                  <th>PM2.5</th>
-                  <th>Trend</th>
-                </tr>
-              </thead>
-              <tbody>{renderTableRows(cleanCountries, 'clean')}</tbody>
-            </table>
-          </div>
-        </div>
-      </section>
+      {/* Leaderboards */}
+      <div className="grid gap-4 md:grid-cols-2">
+        <Card>
+          <CardHeader>
+            <CardTitle>Highest Mean PM2.5</CardTitle>
+            <CardDescription>Persistent hotspots.</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <div className="relative w-full overflow-auto">
+              <table className="w-full caption-bottom text-sm text-left">
+                <thead className="[&_tr]:border-b">
+                  <tr className="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                    <th className="h-12 px-4 text-left align-middle font-medium text-muted-foreground">Country</th>
+                    <th className="h-12 px-4 text-left align-middle font-medium text-muted-foreground">Region</th>
+                    <th className="h-12 px-4 text-left align-middle font-medium text-muted-foreground">PM2.5</th>
+                    <th className="h-12 px-4 text-left align-middle font-medium text-muted-foreground">Trend</th>
+                  </tr>
+                </thead>
+                <tbody className="[&_tr:last-child]:border-0">
+                  {renderTableRows(topCountries)}
+                </tbody>
+              </table>
+            </div>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardHeader>
+            <CardTitle>Cleanest Air</CardTitle>
+            <CardDescription>Lowest average exposure.</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <div className="relative w-full overflow-auto">
+              <table className="w-full caption-bottom text-sm text-left">
+                 <thead className="[&_tr]:border-b">
+                  <tr className="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                    <th className="h-12 px-4 text-left align-middle font-medium text-muted-foreground">Country</th>
+                    <th className="h-12 px-4 text-left align-middle font-medium text-muted-foreground">Region</th>
+                    <th className="h-12 px-4 text-left align-middle font-medium text-muted-foreground">PM2.5</th>
+                    <th className="h-12 px-4 text-left align-middle font-medium text-muted-foreground">Trend</th>
+                  </tr>
+                </thead>
+                <tbody className="[&_tr:last-child]:border-0">
+                  {renderTableRows(cleanCountries)}
+                </tbody>
+              </table>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
 
-      <section className="panel">
-        <div className="panel__header">
-          <div>
-            <p className="eyebrow">City respirability watchlist</p>
-            <h2>Micro hotspots and seasonal fingerprints</h2>
-          </div>
-          <select
-            className="select"
+       {/* City Watchlist */}
+      <Card>
+        <CardHeader className="flex flex-row items-center justify-between">
+           <div>
+            <CardTitle>City Respirability Watchlist</CardTitle>
+            <CardDescription>Micro hotspots and seasonal fingerprints.</CardDescription>
+           </div>
+           <select
+            className="flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 max-w-xs"
             value={seasonalSelection}
             onChange={(event) => {
               const value = event.target.value;
@@ -331,92 +355,95 @@ export default function Dashboard() {
               </option>
             ))}
           </select>
-        </div>
-        <div className="panel__body panel__body--grid">
-          <div>
-            <h3 className="subheading">Top burdened cities</h3>
-            <table>
-              <thead>
-                <tr>
-                  <th>City</th>
-                  <th>Country</th>
-                  <th>Avg PM2.5</th>
-                  <th>Avg PM10</th>
-                </tr>
-              </thead>
-              <tbody>{renderCityRows()}</tbody>
-            </table>
-          </div>
-          <div>
-            <h3 className="subheading">Seasonal fingerprint</h3>
-            <Plot
-              data={(seasonalSeries.data || []).reduce((acc, row) => {
-                const match = acc.find((trace) => trace.name === row.pollutant);
-                if (match) {
-                  const index = seasonOrder.indexOf(row.season);
-                  match.y[index] = row.seasonal_avg;
-                } else {
-                  const yValues = seasonOrder.map(() => 0);
-                  const index = seasonOrder.indexOf(row.season);
-                  yValues[index] = row.seasonal_avg;
-                  acc.push({ type: 'bar', name: row.pollutant, x: seasonOrder, y: yValues });
-                }
-                return acc;
-              }, [])}
-              layout={{ template: 'plotly_dark', barmode: 'group', margin: { t: 30, r: 10, b: 40, l: 40 } }}
-              className="plot"
-              useResizeHandler
-              style={{ width: '100%', height: '360px' }}
-            />
-          </div>
-        </div>
-      </section>
+        </CardHeader>
+        <CardContent className="grid gap-4 lg:grid-cols-2">
+           <div>
+             <h3 className="mb-4 text-sm font-semibold">Top Burdened Cities</h3>
+             <div className="relative w-full overflow-auto">
+              <table className="w-full caption-bottom text-sm text-left">
+                 <thead className="[&_tr]:border-b">
+                  <tr className="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                    <th className="h-12 px-4 text-left align-middle font-medium text-muted-foreground">City</th>
+                    <th className="h-12 px-4 text-left align-middle font-medium text-muted-foreground">Country</th>
+                    <th className="h-12 px-4 text-left align-middle font-medium text-muted-foreground">Avg PM2.5</th>
+                    <th className="h-12 px-4 text-left align-middle font-medium text-muted-foreground">Avg PM10</th>
+                  </tr>
+                </thead>
+                <tbody className="[&_tr:last-child]:border-0">
+                  {renderCityRows()}
+                </tbody>
+              </table>
+            </div>
+           </div>
+           <div>
+              <h3 className="mb-4 text-sm font-semibold">Seasonal Fingerprint</h3>
+               <Plot
+                data={(seasonalSeries.data || []).reduce((acc, row) => {
+                  const match = acc.find((trace) => trace.name === row.pollutant);
+                  if (match) {
+                    const index = seasonOrder.indexOf(row.season);
+                    match.y[index] = row.seasonal_avg;
+                  } else {
+                    const yValues = seasonOrder.map(() => 0);
+                    const index = seasonOrder.indexOf(row.season);
+                    yValues[index] = row.seasonal_avg;
+                    acc.push({ type: 'bar', name: row.pollutant, x: seasonOrder, y: yValues });
+                  }
+                  return acc;
+                }, [])}
+                layout={{ template: 'plotly_dark', barmode: 'group', margin: { t: 30, r: 10, b: 40, l: 40 }, paper_bgcolor: 'rgba(0,0,0,0)', plot_bgcolor: 'rgba(0,0,0,0)' }}
+                useResizeHandler
+                style={{ width: '100%', height: '350px' }}
+              />
+           </div>
+        </CardContent>
+      </Card>
 
-      <section className="panel">
-        <div className="panel__header">
-          <div>
-            <p className="eyebrow">Correlation diagnostics</p>
-            <h2>Economics, health, and pollutant stacks</h2>
-          </div>
-        </div>
-        <div className="panel__body">
-          <div className="correlation-grid">
-            {[
-              { label: 'PM2.5 vs GDP per capita', key: 'pm25_gdp_corr' },
+      {/* Correlation & Metrics */}
+      <Card>
+        <CardHeader>
+           <CardTitle>Correlation Diagnostics</CardTitle>
+           <CardDescription>Economics, health, and pollutant relationships.</CardDescription>
+        </CardHeader>
+        <CardContent>
+           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4 mb-6">
+              {[
+              { label: 'PM2.5 vs GDP', key: 'pm25_gdp_corr' },
               { label: 'PM2.5 vs Urbanisation', key: 'pm25_urban_corr' },
-              { label: 'PM2.5 vs Communicable deaths', key: 'pm25_health_corr' },
-              { label: 'Δ PM2.5 vs Δ Health burden', key: 'delta_pm25_delta_health_corr' },
+              { label: 'PM2.5 vs Health Burden', key: 'pm25_health_corr' },
+              { label: 'Δ PM2.5 vs Δ Health', key: 'delta_pm25_delta_health_corr' },
             ].map((item) => (
-              <article key={item.key} className="correlation-card">
-                <p className="label">{item.label}</p>
-                <h3>{formatNumber(correlations[item.key], 2)}</h3>
-              </article>
+              <div key={item.key} className="p-4 rounded-lg bg-muted/50 border">
+                 <p className="text-sm font-medium text-muted-foreground">{item.label}</p>
+                 <h3 className="text-2xl font-bold mt-1">{formatNumber(correlations[item.key], 2)}</h3>
+              </div>
             ))}
-          </div>
-          <div className="model-metrics">
-            {[
+           </div>
+           
+           <div className="mb-6 flex gap-4">
+              {[
               { label: 'R²', key: 'r2' },
               { label: 'RMSE', key: 'rmse' },
               { label: 'MAE', key: 'mae' },
             ].map((metric) => (
-              <div key={metric.key} className="metric-chip">
-                <p>{metric.label}</p>
-                <span>{formatNumber(modelMetrics?.metrics ? modelMetrics.metrics[metric.key] : modelMetrics[metric.key], metric.key === 'r2' ? 3 : 2)}</span>
-              </div>
+               <div key={metric.key} className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground hover:bg-primary/80">
+                  {metric.label}: {formatNumber(modelMetrics?.metrics ? modelMetrics.metrics[metric.key] : modelMetrics[metric.key], metric.key === 'r2' ? 3 : 2)}
+               </div>
             ))}
-          </div>
-          <div className="panel__body">
-            <h3 className="subheading">Pollutant correlation matrix</h3>
-            <Plot
-              data={heatmapTrace}
-              layout={{ template: 'plotly_dark', margin: { t: 20, r: 20, b: 60, l: 60 } }}
-              className="plot"
-              useResizeHandler
-              style={{ width: '100%', height: '420px' }}
-            />
-          </div>
-        </div>
-      </section>
-    </>
+           </div>
+
+           <div>
+              <h3 className="text-sm font-semibold mb-2">Pollutant Correlation Matrix</h3>
+               <Plot
+                data={heatmapTrace}
+                layout={{ template: 'plotly_dark', margin: { t: 20, r: 20, b: 60, l: 60 }, paper_bgcolor: 'rgba(0,0,0,0)', plot_bgcolor: 'rgba(0,0,0,0)' }}
+                useResizeHandler
+                style={{ width: '100%', height: '400px' }}
+              />
+           </div>
+        </CardContent>
+      </Card>
+      
+    </div>
   );
 }

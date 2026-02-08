@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "country": "SG",
+      "city": "Singapore",
+      "years": 1,
+      "avg_pm25": 282.9,
+      "avg_pm10": null,
+      "avg_no2": null
+    },
+    {
+      "country": "MX",
+      "city": "GUANAJUATO",
+      "years": 3,
+      "avg_pm25": 231.11,
+      "avg_pm10": 94.8461538462,
+      "avg_no2": null
+    },
+    {
+      "country": "IN",
+      "city": "Faridabad",
+      "years": 2,
+      "avg_pm25": 213.5,
+      "avg_pm10": 372.0,
+      "avg_no2": 109.075
+    },
+    {
+      "country": "IN",
+      "city": "Jodhpur",
+      "years": 3,
+      "avg_pm25": 211.515,
+      "avg_pm10": 454.65,
+      "avg_no2": 63.16
+    },
+    {
+      "country": "IN",
+      "city": "Varanasi",
+      "years": 2,
+      "avg_pm25": 189.5,
+      "avg_pm10": 376.0,
+      "avg_no2": 104.34
+    },
+    {
+      "country": "CL",
+      "city": "Linares",
+      "years": 1,
+      "avg_pm25": 189.0,
+      "avg_pm10": null,
+      "avg_no2": null
+    },
+    {
+      "country": "IN",
+      "city": "Gurgaon",
+      "years": 2,
+      "avg_pm25": 170.84,
+      "avg_pm10": 132.94,
+      "avg_no2": 18.89
+    },
+    {
+      "country": "BA",
+      "city": "\u017divinice",
+      "years": 2,
+      "avg_pm25": 152.3,
+      "avg_pm10": null,
+      "avg_no2": 7.5
+    },
+    {
+      "country": "CL",
+      "city": "Balneario Curanilahue",
+      "years": 1,
+      "avg_pm25": 147.0,
+      "avg_pm10": null,
+      "avg_no2": null
+    },
+    {
+      "country": "IN",
+      "city": "Muzaffarpur",
+      "years": 2,
+      "avg_pm25": 144.0,
+      "avg_pm10": null,
+      "avg_no2": 22.545
+    }
+  ]
+}

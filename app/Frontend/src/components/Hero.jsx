@@ -1,22 +1,22 @@
-export default function Hero({ title, subtitle, description, actions = [] }) {
+export default function Hero({ title, subtitle, description }) {
   return (
-    <section className="hero">
-      <div className="hero__glow"></div>
-      <div className="hero__content">
-        <p className="eyebrow">Project · Interactive intelligence</p>
-        <h2>{title}</h2>
-        {subtitle && <p className="hero__subtitle">{subtitle}</p>}
-        {description && <p className="lede">{description}</p>}
-        {actions.length > 0 && (
-          <div className="hero__actions">
-            {actions.map((action) => (
-              <button key={action.label} onClick={action.onClick} type="button">
-                {action.label}
-              </button>
-            ))}
-          </div>
-        )}
+    <div className="relative isolate overflow-hidden bg-background py-10 sm:py-16">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl lg:mx-0">
+          <p className="text-base font-semibold leading-7 text-primary">Project · Interactive intelligence</p>
+          <h2 className="mt-2 text-4xl font-bold tracking-tight text-foreground sm:text-6xl">{title}</h2>
+          {subtitle && (
+            <p className="mt-6 text-lg leading-8 text-muted-foreground">
+              {subtitle}
+            </p>
+          )}
+          {description && (
+             <p className="mt-4 text-base leading-7 text-muted-foreground/80">
+              {description}
+             </p>
+          )}
+        </div>
       </div>
-    </section>
+    </div>
   );
 }

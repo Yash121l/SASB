@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "iso3": "PER",
+      "country_name": "Peru",
+      "region": "Latin America & Caribbean ",
+      "income_group": "Upper middle income",
+      "pm25_mean": 41.0515151985,
+      "pm25_latest": 27.0356284969,
+      "pm25_peak": 68.5494675599,
+      "pm25_trend": -2.4750497633
+    },
+    {
+      "iso3": "BOL",
+      "country_name": "Bolivia",
+      "region": "Latin America & Caribbean ",
+      "income_group": "Lower middle income",
+      "pm25_mean": 34.9807521948,
+      "pm25_latest": 22.8794590742,
+      "pm25_peak": 59.7162505298,
+      "pm25_trend": -2.2515574621
+    },
+    {
+      "iso3": "ECU",
+      "country_name": "Ecuador",
+      "region": "Latin America & Caribbean ",
+      "income_group": "Upper middle income",
+      "pm25_mean": 25.5403660198,
+      "pm25_latest": 16.6570210759,
+      "pm25_peak": 42.9326149032,
+      "pm25_trend": -1.6233208376
+    },
+    {
+      "iso3": "QAT",
+      "country_name": "Qatar",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "income_group": "High income",
+      "pm25_mean": 88.1254121307,
+      "pm25_latest": 75.6630329481,
+      "pm25_peak": 97.7000280043,
+      "pm25_trend": -0.8091861542
+    }
+  ]
+}

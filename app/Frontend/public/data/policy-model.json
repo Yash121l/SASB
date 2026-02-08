@@ -1,0 +1,30 @@
+{
+  "intercept": 21.7332978963718,
+  "coefficients": [
+    -0.0001834960733048457,
+    0.0316314740266341,
+    0.305592243146354
+  ],
+  "features": [
+    "gdp_per_capita_constant_2015usd",
+    "urban_population_pct",
+    "communicable_disease_death_pct"
+  ],
+  "stats": {
+    "min": {
+      "gdp_per_capita_constant_2015usd": 255.078218433565,
+      "urban_population_pct": 9.139,
+      "communicable_disease_death_pct": 1.20853070612295
+    },
+    "max": {
+      "gdp_per_capita_constant_2015usd": 112417.876989455,
+      "urban_population_pct": 100.0,
+      "communicable_disease_death_pct": 69.3369733009343
+    },
+    "median": {
+      "gdp_per_capita_constant_2015usd": 4672.66408678635,
+      "urban_population_pct": 54.057,
+      "communicable_disease_death_pct": 14.1294278660707
+    }
+  }
+}

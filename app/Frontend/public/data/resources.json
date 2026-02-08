@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "title": "World Bank PM2.5 Exposure (EN.ATM.PM25.MC.M3)",
+      "type": "Dataset",
+      "url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3",
+      "description": "Country-level PM2.5 exposure used for longitudinal analysis (2004-2023)."
+    },
+    {
+      "title": "World Bank GDP per Capita (NY.GDP.PCAP.KD)",
+      "type": "Dataset",
+      "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD",
+      "description": "Economic covariate (constant 2015 USD) powering GDP-versus-air-quality exploration."
+    },
+    {
+      "title": "World Bank Urban Population Share (SP.URB.TOTL.IN.ZS)",
+      "type": "Dataset",
+      "url": "https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS",
+      "description": "Urbanisation lens to compare rural/urban exposure contrasts."
+    },
+    {
+      "title": "World Bank Communicable Disease Mortality (SH.DTH.COMM.ZS)",
+      "type": "Dataset",
+      "url": "https://data.worldbank.org/indicator/SH.DTH.COMM.ZS",
+      "description": "Proxy for health-system stress co-moving with air quality."
+    },
+    {
+      "title": "OpenAQ City-Level Measurements",
+      "type": "Dataset",
+      "url": "https://explore.openaq.org/",
+      "description": "Hourly pollutant readings (PM2.5, PM10, NO2, O3, CO, BC) aggregated into city-year panels."
+    },
+    {
+      "title": "Analysis Narrative",
+      "type": "Report",
+      "url": "https://github.com/Yash121l/SASB/blob/main/results/reports/analysis_report.md",
+      "description": "Full methodology, findings, limitations, and verification checklist."
+    },
+    {
+      "title": "Interactive Figures",
+      "type": "Dashboard",
+      "url": "https://github.com/Yash121l/SASB/tree/main/results/figures",
+      "description": "Plotly HTML exports: regional trends, choropleth sliders, GDP vs PM2.5, seasonal patterns."
+    }
+  ]
+}

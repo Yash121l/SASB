@@ -1,0 +1,684 @@
+{
+  "data": [
+    {
+      "region": "Aggregates",
+      "year": 2004,
+      "pm25_exposure": 35.3208992029
+    },
+    {
+      "region": "Aggregates",
+      "year": 2005,
+      "pm25_exposure": 35.0293632478
+    },
+    {
+      "region": "Aggregates",
+      "year": 2006,
+      "pm25_exposure": 34.6020831115
+    },
+    {
+      "region": "Aggregates",
+      "year": 2007,
+      "pm25_exposure": 33.9023739181
+    },
+    {
+      "region": "Aggregates",
+      "year": 2008,
+      "pm25_exposure": 33.1498387106
+    },
+    {
+      "region": "Aggregates",
+      "year": 2009,
+      "pm25_exposure": 32.5566152663
+    },
+    {
+      "region": "Aggregates",
+      "year": 2010,
+      "pm25_exposure": 32.3243688627
+    },
+    {
+      "region": "Aggregates",
+      "year": 2011,
+      "pm25_exposure": 34.6200955922
+    },
+    {
+      "region": "Aggregates",
+      "year": 2012,
+      "pm25_exposure": 36.4104338646
+    },
+    {
+      "region": "Aggregates",
+      "year": 2013,
+      "pm25_exposure": 36.332537318
+    },
+    {
+      "region": "Aggregates",
+      "year": 2014,
+      "pm25_exposure": 35.6645686222
+    },
+    {
+      "region": "Aggregates",
+      "year": 2015,
+      "pm25_exposure": 37.7125814793
+    },
+    {
+      "region": "Aggregates",
+      "year": 2016,
+      "pm25_exposure": 36.0712683625
+    },
+    {
+      "region": "Aggregates",
+      "year": 2017,
+      "pm25_exposure": 34.2003059151
+    },
+    {
+      "region": "Aggregates",
+      "year": 2018,
+      "pm25_exposure": 33.6855681862
+    },
+    {
+      "region": "Aggregates",
+      "year": 2019,
+      "pm25_exposure": 31.0619155767
+    },
+    {
+      "region": "Aggregates",
+      "year": 2020,
+      "pm25_exposure": 29.2743310126
+    },
+    {
+      "region": "East Asia & Pacific",
+      "year": 2004,
+      "pm25_exposure": 18.6906903337
+    },
+    {
+      "region": "East Asia & Pacific",
+      "year": 2005,
+      "pm25_exposure": 18.5508865413
+    },
+    {
+      "region": "East Asia & Pacific",
+      "year": 2006,
+      "pm25_exposure": 18.3275308298
+    },
+    {
+      "region": "East Asia & Pacific",
+      "year": 2007,
+      "pm25_exposure": 17.9866238584
+    },
+    {
+      "region": "East Asia & Pacific",
+      "year": 2008,
+      "pm25_exposure": 17.5762852066
+    },
+    {
+      "region": "East Asia & Pacific",
+      "year": 2009,
+      "pm25_exposure": 17.144634454
+    },
+    {
+      "region": "East Asia & Pacific",
+      "year": 2010,
+      "pm25_exposure": 16.7397911799
+    },
+    {
+      "region": "East Asia & Pacific",
+      "year": 2011,
+      "pm25_exposure": 16.5358772947
+    },
+    {
+      "region": "East Asia & Pacific",
+      "year": 2012,
+      "pm25_exposure": 17.087137058
+    },
+    {
+      "region": "East Asia & Pacific",
+      "year": 2013,
+      "pm25_exposure": 18.1963036812
+    },
+    {
+      "region": "East Asia & Pacific",
+      "year": 2014,
+      "pm25_exposure": 17.1388960025
+    },
+    {
+      "region": "East Asia & Pacific",
+      "year": 2015,
+      "pm25_exposure": 16.8383026595
+    },
+    {
+      "region": "East Asia & Pacific",
+      "year": 2016,
+      "pm25_exposure": 16.7346925847
+    },
+    {
+      "region": "East Asia & Pacific",
+      "year": 2017,
+      "pm25_exposure": 16.0046222844
+    },
+    {
+      "region": "East Asia & Pacific",
+      "year": 2018,
+      "pm25_exposure": 16.522706311
+    },
+    {
+      "region": "East Asia & Pacific",
+      "year": 2019,
+      "pm25_exposure": 16.6866649066
+    },
+    {
+      "region": "East Asia & Pacific",
+      "year": 2020,
+      "pm25_exposure": 16.180145187
+    },
+    {
+      "region": "Europe & Central Asia",
+      "year": 2004,
+      "pm25_exposure": 19.3956810962
+    },
+    {
+      "region": "Europe & Central Asia",
+      "year": 2005,
+      "pm25_exposure": 19.220628374
+    },
+    {
+      "region": "Europe & Central Asia",
+      "year": 2006,
+      "pm25_exposure": 19.0396243526
+    },
+    {
+      "region": "Europe & Central Asia",
+      "year": 2007,
+      "pm25_exposure": 18.8218667812
+    },
+    {
+      "region": "Europe & Central Asia",
+      "year": 2008,
+      "pm25_exposure": 18.6436571512
+    },
+    {
+      "region": "Europe & Central Asia",
+      "year": 2009,
+      "pm25_exposure": 18.5812969542
+    },
+    {
+      "region": "Europe & Central Asia",
+      "year": 2010,
+      "pm25_exposure": 18.7110876817
+    },
+    {
+      "region": "Europe & Central Asia",
+      "year": 2011,
+      "pm25_exposure": 20.3111393231
+    },
+    {
+      "region": "Europe & Central Asia",
+      "year": 2012,
+      "pm25_exposure": 19.0854831227
+    },
+    {
+      "region": "Europe & Central Asia",
+      "year": 2013,
+      "pm25_exposure": 18.4506233363
+    },
+    {
+      "region": "Europe & Central Asia",
+      "year": 2014,
+      "pm25_exposure": 17.7606355335
+    },
+    {
+      "region": "Europe & Central Asia",
+      "year": 2015,
+      "pm25_exposure": 17.465023876
+    },
+    {
+      "region": "Europe & Central Asia",
+      "year": 2016,
+      "pm25_exposure": 16.3879819639
+    },
+    {
+      "region": "Europe & Central Asia",
+      "year": 2017,
+      "pm25_exposure": 16.2050755786
+    },
+    {
+      "region": "Europe & Central Asia",
+      "year": 2018,
+      "pm25_exposure": 16.5907710813
+    },
+    {
+      "region": "Europe & Central Asia",
+      "year": 2019,
+      "pm25_exposure": 15.0506648376
+    },
+    {
+      "region": "Europe & Central Asia",
+      "year": 2020,
+      "pm25_exposure": 14.5277869198
+    },
+    {
+      "region": "Latin America & Caribbean ",
+      "year": 2004,
+      "pm25_exposure": 23.1371237676
+    },
+    {
+      "region": "Latin America & Caribbean ",
+      "year": 2005,
+      "pm25_exposure": 22.6994535922
+    },
+    {
+      "region": "Latin America & Caribbean ",
+      "year": 2006,
+      "pm25_exposure": 22.1669519283
+    },
+    {
+      "region": "Latin America & Caribbean ",
+      "year": 2007,
+      "pm25_exposure": 21.3730964641
+    },
+    {
+      "region": "Latin America & Caribbean ",
+      "year": 2008,
+      "pm25_exposure": 20.4955868266
+    },
+    {
+      "region": "Latin America & Caribbean ",
+      "year": 2009,
+      "pm25_exposure": 19.712122643
+    },
+    {
+      "region": "Latin America & Caribbean ",
+      "year": 2010,
+      "pm25_exposure": 19.2004035402
+    },
+    {
+      "region": "Latin America & Caribbean ",
+      "year": 2011,
+      "pm25_exposure": 19.551357962
+    },
+    {
+      "region": "Latin America & Caribbean ",
+      "year": 2012,
+      "pm25_exposure": 19.1707011383
+    },
+    {
+      "region": "Latin America & Caribbean ",
+      "year": 2013,
+      "pm25_exposure": 19.6047241864
+    },
+    {
+      "region": "Latin America & Caribbean ",
+      "year": 2014,
+      "pm25_exposure": 19.4978983777
+    },
+    {
+      "region": "Latin America & Caribbean ",
+      "year": 2015,
+      "pm25_exposure": 20.1597787046
+    },
+    {
+      "region": "Latin America & Caribbean ",
+      "year": 2016,
+      "pm25_exposure": 19.7174614978
+    },
+    {
+      "region": "Latin America & Caribbean ",
+      "year": 2017,
+      "pm25_exposure": 19.3931846483
+    },
+    {
+      "region": "Latin America & Caribbean ",
+      "year": 2018,
+      "pm25_exposure": 18.9690493698
+    },
+    {
+      "region": "Latin America & Caribbean ",
+      "year": 2019,
+      "pm25_exposure": 18.328180889
+    },
+    {
+      "region": "Latin America & Caribbean ",
+      "year": 2020,
+      "pm25_exposure": 18.6638738482
+    },
+    {
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "year": 2004,
+      "pm25_exposure": 42.8137071982
+    },
+    {
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "year": 2005,
+      "pm25_exposure": 42.9718435185
+    },
+    {
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "year": 2006,
+      "pm25_exposure": 42.9975918254
+    },
+    {
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "year": 2007,
+      "pm25_exposure": 42.8789030665
+    },
+    {
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "year": 2008,
+      "pm25_exposure": 42.7065681445
+    },
+    {
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "year": 2009,
+      "pm25_exposure": 42.5713779618
+    },
+    {
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "year": 2010,
+      "pm25_exposure": 42.5641234209
+    },
+    {
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "year": 2011,
+      "pm25_exposure": 42.7076588308
+    },
+    {
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "year": 2012,
+      "pm25_exposure": 44.4838852586
+    },
+    {
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "year": 2013,
+      "pm25_exposure": 44.5074898463
+    },
+    {
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "year": 2014,
+      "pm25_exposure": 40.5912956585
+    },
+    {
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "year": 2015,
+      "pm25_exposure": 44.9750789206
+    },
+    {
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "year": 2016,
+      "pm25_exposure": 41.9501792938
+    },
+    {
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "year": 2017,
+      "pm25_exposure": 41.0157019632
+    },
+    {
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "year": 2018,
+      "pm25_exposure": 43.5842510264
+    },
+    {
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "year": 2019,
+      "pm25_exposure": 39.870274997
+    },
+    {
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "year": 2020,
+      "pm25_exposure": 36.3259488151
+    },
+    {
+      "region": "North America",
+      "year": 2004,
+      "pm25_exposure": 10.041089669
+    },
+    {
+      "region": "North America",
+      "year": 2005,
+      "pm25_exposure": 9.853148609
+    },
+    {
+      "region": "North America",
+      "year": 2006,
+      "pm25_exposure": 9.5786052529
+    },
+    {
+      "region": "North America",
+      "year": 2007,
+      "pm25_exposure": 9.1889643188
+    },
+    {
+      "region": "North America",
+      "year": 2008,
+      "pm25_exposure": 8.759105688
+    },
+    {
+      "region": "North America",
+      "year": 2009,
+      "pm25_exposure": 8.3639092416
+    },
+    {
+      "region": "North America",
+      "year": 2010,
+      "pm25_exposure": 8.0782548612
+    },
+    {
+      "region": "North America",
+      "year": 2011,
+      "pm25_exposure": 7.8842985928
+    },
+    {
+      "region": "North America",
+      "year": 2012,
+      "pm25_exposure": 7.8562154032
+    },
+    {
+      "region": "North America",
+      "year": 2013,
+      "pm25_exposure": 7.5399220113
+    },
+    {
+      "region": "North America",
+      "year": 2014,
+      "pm25_exposure": 7.6482904227
+    },
+    {
+      "region": "North America",
+      "year": 2015,
+      "pm25_exposure": 7.4269954536
+    },
+    {
+      "region": "North America",
+      "year": 2016,
+      "pm25_exposure": 7.1192789685
+    },
+    {
+      "region": "North America",
+      "year": 2017,
+      "pm25_exposure": 7.5021919391
+    },
+    {
+      "region": "North America",
+      "year": 2018,
+      "pm25_exposure": 7.4371081348
+    },
+    {
+      "region": "North America",
+      "year": 2019,
+      "pm25_exposure": 6.8698740746
+    },
+    {
+      "region": "North America",
+      "year": 2020,
+      "pm25_exposure": 7.2388426641
+    },
+    {
+      "region": "South Asia",
+      "year": 2004,
+      "pm25_exposure": 42.3232283742
+    },
+    {
+      "region": "South Asia",
+      "year": 2005,
+      "pm25_exposure": 42.2263627988
+    },
+    {
+      "region": "South Asia",
+      "year": 2006,
+      "pm25_exposure": 41.23982852
+    },
+    {
+      "region": "South Asia",
+      "year": 2007,
+      "pm25_exposure": 39.2157006585
+    },
+    {
+      "region": "South Asia",
+      "year": 2008,
+      "pm25_exposure": 36.8288812981
+    },
+    {
+      "region": "South Asia",
+      "year": 2009,
+      "pm25_exposure": 34.7542725225
+    },
+    {
+      "region": "South Asia",
+      "year": 2010,
+      "pm25_exposure": 33.6667764157
+    },
+    {
+      "region": "South Asia",
+      "year": 2011,
+      "pm25_exposure": 38.9325104605
+    },
+    {
+      "region": "South Asia",
+      "year": 2012,
+      "pm25_exposure": 47.0973047955
+    },
+    {
+      "region": "South Asia",
+      "year": 2013,
+      "pm25_exposure": 47.4454730278
+    },
+    {
+      "region": "South Asia",
+      "year": 2014,
+      "pm25_exposure": 49.0484761187
+    },
+    {
+      "region": "South Asia",
+      "year": 2015,
+      "pm25_exposure": 45.8435956059
+    },
+    {
+      "region": "South Asia",
+      "year": 2016,
+      "pm25_exposure": 46.7855624204
+    },
+    {
+      "region": "South Asia",
+      "year": 2017,
+      "pm25_exposure": 42.2991011549
+    },
+    {
+      "region": "South Asia",
+      "year": 2018,
+      "pm25_exposure": 43.2134235985
+    },
+    {
+      "region": "South Asia",
+      "year": 2019,
+      "pm25_exposure": 38.2795347817
+    },
+    {
+      "region": "South Asia",
+      "year": 2020,
+      "pm25_exposure": 32.0699080107
+    },
+    {
+      "region": "Sub-Saharan Africa ",
+      "year": 2004,
+      "pm25_exposure": 35.6658054407
+    },
+    {
+      "region": "Sub-Saharan Africa ",
+      "year": 2005,
+      "pm25_exposure": 35.2403988202
+    },
+    {
+      "region": "Sub-Saharan Africa ",
+      "year": 2006,
+      "pm25_exposure": 35.1026281019
+    },
+    {
+      "region": "Sub-Saharan Africa ",
+      "year": 2007,
+      "pm25_exposure": 34.9749052928
+    },
+    {
+      "region": "Sub-Saharan Africa ",
+      "year": 2008,
+      "pm25_exposure": 34.8949546751
+    },
+    {
+      "region": "Sub-Saharan Africa ",
+      "year": 2009,
+      "pm25_exposure": 34.9005005308
+    },
+    {
+      "region": "Sub-Saharan Africa ",
+      "year": 2010,
+      "pm25_exposure": 35.0292671418
+    },
+    {
+      "region": "Sub-Saharan Africa ",
+      "year": 2011,
+      "pm25_exposure": 36.9827397607
+    },
+    {
+      "region": "Sub-Saharan Africa ",
+      "year": 2012,
+      "pm25_exposure": 38.8239819711
+    },
+    {
+      "region": "Sub-Saharan Africa ",
+      "year": 2013,
+      "pm25_exposure": 33.7330036236
+    },
+    {
+      "region": "Sub-Saharan Africa ",
+      "year": 2014,
+      "pm25_exposure": 33.1904257908
+    },
+    {
+      "region": "Sub-Saharan Africa ",
+      "year": 2015,
+      "pm25_exposure": 41.9426285324
+    },
+    {
+      "region": "Sub-Saharan Africa ",
+      "year": 2016,
+      "pm25_exposure": 39.1854835045
+    },
+    {
+      "region": "Sub-Saharan Africa ",
+      "year": 2017,
+      "pm25_exposure": 37.8577178855
+    },
+    {
+      "region": "Sub-Saharan Africa ",
+      "year": 2018,
+      "pm25_exposure": 36.2918178667
+    },
+    {
+      "region": "Sub-Saharan Africa ",
+      "year": 2019,
+      "pm25_exposure": 34.077411694
+    },
+    {
+      "region": "Sub-Saharan Africa ",
+      "year": 2020,
+      "pm25_exposure": 35.7160673347
+    }
+  ]
+}

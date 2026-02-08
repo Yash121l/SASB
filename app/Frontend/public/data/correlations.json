@@ -1,0 +1,6 @@
+{
+  "pm25_gdp_corr": -0.3516,
+  "pm25_urban_corr": -0.3583,
+  "pm25_health_corr": 0.4552,
+  "delta_pm25_delta_health_corr": -0.1056
+}

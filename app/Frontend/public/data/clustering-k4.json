@@ -1,0 +1,2294 @@
+{
+  "data": [
+    {
+      "iso3": "AFE",
+      "country_name": "Africa Eastern and Southern",
+      "region": "Aggregates",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1383.7241194101,
+      "urban_population_pct": 36.8840344817,
+      "pm25_exposure": 26.7556863586,
+      "communicable_disease_death_pct": 49.0198435796
+    },
+    {
+      "iso3": "AFG",
+      "country_name": "Afghanistan",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 527.8345544993,
+      "urban_population_pct": 26.026,
+      "pm25_exposure": 46.087093666,
+      "communicable_disease_death_pct": 32.9304513538
+    },
+    {
+      "iso3": "AFW",
+      "country_name": "Africa Western and Central",
+      "region": "Aggregates",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1768.3135650095,
+      "urban_population_pct": 47.9310209576,
+      "pm25_exposure": 54.8918200969,
+      "communicable_disease_death_pct": 59.5038196263
+    },
+    {
+      "iso3": "AGO",
+      "country_name": "Angola",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 2433.3763727556,
+      "urban_population_pct": 66.825,
+      "pm25_exposure": 25.1452381976,
+      "communicable_disease_death_pct": 59.1622729538
+    },
+    {
+      "iso3": "ALB",
+      "country_name": "Albania",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 4437.6534692797,
+      "urban_population_pct": 62.112,
+      "pm25_exposure": 15.7070036417,
+      "communicable_disease_death_pct": 3.0231082827
+    },
+    {
+      "iso3": "ARB",
+      "country_name": "Arab World",
+      "region": "Aggregates",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 5923.3735068447,
+      "urban_population_pct": 58.4966741305,
+      "pm25_exposure": 39.713214688,
+      "communicable_disease_death_pct": 18.8181428069
+    },
+    {
+      "iso3": "ARE",
+      "country_name": "United Arab Emirates",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 40776.6308713329,
+      "urban_population_pct": 87.048,
+      "pm25_exposure": 36.3055030827,
+      "communicable_disease_death_pct": 7.0916912706
+    },
+    {
+      "iso3": "ARG",
+      "country_name": "Argentina",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 11393.0505957877,
+      "urban_population_pct": 92.111,
+      "pm25_exposure": 14.9081737974,
+      "communicable_disease_death_pct": 17.5964944783
+    },
+    {
+      "iso3": "ARM",
+      "country_name": "Armenia",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 4032.0904345496,
+      "urban_population_pct": 63.313,
+      "pm25_exposure": 30.579633475,
+      "communicable_disease_death_pct": 6.6944989098
+    },
+    {
+      "iso3": "ATG",
+      "country_name": "Antigua and Barbuda",
+      "region": "Latin America & Caribbean ",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 14950.8942397208,
+      "urban_population_pct": 24.433,
+      "pm25_exposure": 19.6982695583,
+      "communicable_disease_death_pct": 9.8343946139
+    },
+    {
+      "iso3": "AUS",
+      "country_name": "Australia",
+      "region": "East Asia & Pacific",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 58132.798523626,
+      "urban_population_pct": 86.241,
+      "pm25_exposure": 8.2517174607,
+      "communicable_disease_death_pct": 4.9410543219
+    },
+    {
+      "iso3": "AUT",
+      "country_name": "Austria",
+      "region": "Europe & Central Asia",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 43428.6983137234,
+      "urban_population_pct": 58.748,
+      "pm25_exposure": 10.9335136815,
+      "communicable_disease_death_pct": 3.5699786157
+    },
+    {
+      "iso3": "AZE",
+      "country_name": "Azerbaijan",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 5087.5002269129,
+      "urban_population_pct": 56.397,
+      "pm25_exposure": 21.7269999757,
+      "communicable_disease_death_pct": 5.9881890416
+    },
+    {
+      "iso3": "BDI",
+      "country_name": "Burundi",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 255.0782184336,
+      "urban_population_pct": 13.708,
+      "pm25_exposure": 29.6541345085,
+      "communicable_disease_death_pct": 51.1748058046
+    },
+    {
+      "iso3": "BEL",
+      "country_name": "Belgium",
+      "region": "Europe & Central Asia",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 40769.0218072962,
+      "urban_population_pct": 98.079,
+      "pm25_exposure": 11.2160664677,
+      "communicable_disease_death_pct": 7.8979055355
+    },
+    {
+      "iso3": "BEN",
+      "country_name": "Benin",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1126.6540412215,
+      "urban_population_pct": 48.415,
+      "pm25_exposure": 51.0478241975,
+      "communicable_disease_death_pct": 51.8319986
+    },
+    {
+      "iso3": "BFA",
+      "country_name": "Burkina Faso",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 713.8421779224,
+      "urban_population_pct": 30.607,
+      "pm25_exposure": 58.4706762025,
+      "communicable_disease_death_pct": 54.104828009
+    },
+    {
+      "iso3": "BGD",
+      "country_name": "Bangladesh",
+      "region": "South Asia",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 1604.6659234742,
+      "urban_population_pct": 38.177,
+      "pm25_exposure": 42.381376236,
+      "communicable_disease_death_pct": 22.6128372234
+    },
+    {
+      "iso3": "BGR",
+      "country_name": "Bulgaria",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 8450.6038875837,
+      "urban_population_pct": 75.686,
+      "pm25_exposure": 17.1474236131,
+      "communicable_disease_death_pct": 2.2140041723
+    },
+    {
+      "iso3": "BHR",
+      "country_name": "Bahrain",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 23586.9309581516,
+      "urban_population_pct": 89.506,
+      "pm25_exposure": 58.4950629835,
+      "communicable_disease_death_pct": 5.0086740898
+    },
+    {
+      "iso3": "BHS",
+      "country_name": "Bahamas, The",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 24791.6538067733,
+      "urban_population_pct": 83.245,
+      "pm25_exposure": 18.9393918729,
+      "communicable_disease_death_pct": 10.7101925571
+    },
+    {
+      "iso3": "BIH",
+      "country_name": "Bosnia and Herzegovina",
+      "region": "Europe & Central Asia",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 5490.753670629,
+      "urban_population_pct": 49.02,
+      "pm25_exposure": 26.6019532714,
+      "communicable_disease_death_pct": 1.8097477425
+    },
+    {
+      "iso3": "BLR",
+      "country_name": "Belarus",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 6251.9889890313,
+      "urban_population_pct": 79.483,
+      "pm25_exposure": 14.6089903841,
+      "communicable_disease_death_pct": 1.6086537434
+    },
+    {
+      "iso3": "BLZ",
+      "country_name": "Belize",
+      "region": "Latin America & Caribbean ",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 5003.8778484719,
+      "urban_population_pct": 46.025,
+      "pm25_exposure": 28.6518070196,
+      "communicable_disease_death_pct": 15.9356601846
+    },
+    {
+      "iso3": "BOL",
+      "country_name": "Bolivia",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 2949.8195503824,
+      "urban_population_pct": 70.123,
+      "pm25_exposure": 22.8794590742,
+      "communicable_disease_death_pct": 18.6223221535
+    },
+    {
+      "iso3": "BRA",
+      "country_name": "Brazil",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 8435.0114325498,
+      "urban_population_pct": 87.073,
+      "pm25_exposure": 12.1793252041,
+      "communicable_disease_death_pct": 13.7086408762
+    },
+    {
+      "iso3": "BRB",
+      "country_name": "Barbados",
+      "region": "Latin America & Caribbean ",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 16166.6559507829,
+      "urban_population_pct": 31.191,
+      "pm25_exposure": 23.7309657843,
+      "communicable_disease_death_pct": 12.9005007432
+    },
+    {
+      "iso3": "BRN",
+      "country_name": "Brunei Darussalam",
+      "region": "East Asia & Pacific",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 30015.9587299585,
+      "urban_population_pct": 78.25,
+      "pm25_exposure": 7.5972650343,
+      "communicable_disease_death_pct": 10.3409807344
+    },
+    {
+      "iso3": "BTN",
+      "country_name": "Bhutan",
+      "region": "South Asia",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 3092.1242839936,
+      "urban_population_pct": 42.316,
+      "pm25_exposure": 23.9456576369,
+      "communicable_disease_death_pct": 18.210937333
+    },
+    {
+      "iso3": "BWA",
+      "country_name": "Botswana",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 6254.2480637754,
+      "urban_population_pct": 70.877,
+      "pm25_exposure": 18.9057549926,
+      "communicable_disease_death_pct": 44.9044531753
+    },
+    {
+      "iso3": "CAF",
+      "country_name": "Central African Republic",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 398.8342741221,
+      "urban_population_pct": 42.198,
+      "pm25_exposure": 34.4334184466,
+      "communicable_disease_death_pct": 59.0611667972
+    },
+    {
+      "iso3": "CAN",
+      "country_name": "Canada",
+      "region": "North America",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 42366.1285377884,
+      "urban_population_pct": 81.562,
+      "pm25_exposure": 6.5656699438,
+      "communicable_disease_death_pct": 4.7722522673
+    },
+    {
+      "iso3": "CEB",
+      "country_name": "Central Europe and the Baltics",
+      "region": "Aggregates",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 14633.6483797066,
+      "urban_population_pct": 62.5213419276,
+      "pm25_exposure": 15.7396365732,
+      "communicable_disease_death_pct": 4.6442561344
+    },
+    {
+      "iso3": "CHE",
+      "country_name": "Switzerland",
+      "region": "Europe & Central Asia",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 84637.0132935333,
+      "urban_population_pct": 73.915,
+      "pm25_exposure": 9.0610496862,
+      "communicable_disease_death_pct": 4.7488094699
+    },
+    {
+      "iso3": "CHL",
+      "country_name": "Chile",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 12679.024004022,
+      "urban_population_pct": 87.727,
+      "pm25_exposure": 23.2750668049,
+      "communicable_disease_death_pct": 7.111620873
+    },
+    {
+      "iso3": "CHN",
+      "country_name": "China",
+      "region": "East Asia & Pacific",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 10573.6420059282,
+      "urban_population_pct": 61.428,
+      "pm25_exposure": 34.8105237153,
+      "communicable_disease_death_pct": 3.5497105578
+    },
+    {
+      "iso3": "CIV",
+      "country_name": "Cote d'Ivoire",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 2055.0848399643,
+      "urban_population_pct": 51.706,
+      "pm25_exposure": 49.4977827339,
+      "communicable_disease_death_pct": 54.3054200964
+    },
+    {
+      "iso3": "CMR",
+      "country_name": "Cameroon",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1434.5191372341,
+      "urban_population_pct": 57.56,
+      "pm25_exposure": 39.8126251005,
+      "communicable_disease_death_pct": 51.8162254693
+    },
+    {
+      "iso3": "COD",
+      "country_name": "Congo, Dem. Rep.",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 471.5044233412,
+      "urban_population_pct": 45.638,
+      "pm25_exposure": 26.6494833206,
+      "communicable_disease_death_pct": 56.1827809539
+    },
+    {
+      "iso3": "COG",
+      "country_name": "Congo, Rep.",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1725.5104004996,
+      "urban_population_pct": 67.829,
+      "pm25_exposure": 28.5737499497,
+      "communicable_disease_death_pct": 51.9672158322
+    },
+    {
+      "iso3": "COL",
+      "country_name": "Colombia",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 5891.955232154,
+      "urban_population_pct": 81.425,
+      "pm25_exposure": 14.1832514905,
+      "communicable_disease_death_pct": 10.3397734089
+    },
+    {
+      "iso3": "COM",
+      "country_name": "Comoros",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 1465.8978258173,
+      "urban_population_pct": 29.38,
+      "pm25_exposure": 11.9332724091,
+      "communicable_disease_death_pct": 44.0713381222
+    },
+    {
+      "iso3": "CPV",
+      "country_name": "Cabo Verde",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 3255.9362898406,
+      "urban_population_pct": 66.652,
+      "pm25_exposure": 42.3225220906,
+      "communicable_disease_death_pct": 15.8291786031
+    },
+    {
+      "iso3": "CRI",
+      "country_name": "Costa Rica",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 12242.2098908608,
+      "urban_population_pct": 80.771,
+      "pm25_exposure": 14.3075712471,
+      "communicable_disease_death_pct": 7.1284953663
+    },
+    {
+      "iso3": "CSS",
+      "country_name": "Caribbean small states",
+      "region": "Aggregates",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 12447.4815923975,
+      "urban_population_pct": 48.4789384076,
+      "pm25_exposure": 24.8557248353,
+      "communicable_disease_death_pct": 11.8613400399
+    },
+    {
+      "iso3": "CUB",
+      "country_name": "Cuba",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 7252.3167215586,
+      "urban_population_pct": 77.194,
+      "pm25_exposure": 21.2367242812,
+      "communicable_disease_death_pct": 9.2150718548
+    },
+    {
+      "iso3": "CYP",
+      "country_name": "Cyprus",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 27391.591796875,
+      "urban_population_pct": 66.821,
+      "pm25_exposure": 13.5087018908,
+      "communicable_disease_death_pct": 4.7917246171
+    },
+    {
+      "iso3": "CZE",
+      "country_name": "Czechia",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 19233.1469549829,
+      "urban_population_pct": 74.061,
+      "pm25_exposure": 14.1110711384,
+      "communicable_disease_death_pct": 5.8277913442
+    },
+    {
+      "iso3": "DEU",
+      "country_name": "Germany",
+      "region": "Europe & Central Asia",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 42362.6472083477,
+      "urban_population_pct": 77.453,
+      "pm25_exposure": 10.2876894329,
+      "communicable_disease_death_pct": 4.7599854164
+    },
+    {
+      "iso3": "DJI",
+      "country_name": "Djibouti",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 2773.406617801,
+      "urban_population_pct": 78.062,
+      "pm25_exposure": 35.9243304831,
+      "communicable_disease_death_pct": 37.4138233549
+    },
+    {
+      "iso3": "DNK",
+      "country_name": "Denmark",
+      "region": "Europe & Central Asia",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 55934.5555945523,
+      "urban_population_pct": 88.116,
+      "pm25_exposure": 9.0698392735,
+      "communicable_disease_death_pct": 6.8261400974
+    },
+    {
+      "iso3": "DOM",
+      "country_name": "Dominican Republic",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 7395.8734262396,
+      "urban_population_pct": 82.54,
+      "pm25_exposure": 19.826744037,
+      "communicable_disease_death_pct": 12.5757640797
+    },
+    {
+      "iso3": "DZA",
+      "country_name": "Algeria",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 4363.6853376778,
+      "urban_population_pct": 73.733,
+      "pm25_exposure": 25.552655831,
+      "communicable_disease_death_pct": 12.9844112788
+    },
+    {
+      "iso3": "EAP",
+      "country_name": "East Asia & Pacific (excluding high income)",
+      "region": "Aggregates",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 8293.7010785562,
+      "urban_population_pct": 57.4845396809,
+      "pm25_exposure": 30.4014002906,
+      "communicable_disease_death_pct": 8.1882494411
+    },
+    {
+      "iso3": "EAR",
+      "country_name": "Early-demographic dividend",
+      "region": "Aggregates",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 3365.3968168614,
+      "urban_population_pct": 45.7878149257,
+      "pm25_exposure": 37.4158024834,
+      "communicable_disease_death_pct": 23.1919634499
+    },
+    {
+      "iso3": "EAS",
+      "country_name": "East Asia & Pacific",
+      "region": "Aggregates",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 11233.1998729839,
+      "urban_population_pct": 60.6822345155,
+      "pm25_exposure": 28.8820060378,
+      "communicable_disease_death_pct": 8.4203222166
+    },
+    {
+      "iso3": "ECA",
+      "country_name": "Europe & Central Asia (excluding high income)",
+      "region": "Aggregates",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 6955.0881320736,
+      "urban_population_pct": 63.7631153788,
+      "pm25_exposure": 22.0578086713,
+      "communicable_disease_death_pct": 5.0297928482
+    },
+    {
+      "iso3": "ECS",
+      "country_name": "Europe & Central Asia",
+      "region": "Aggregates",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 22973.6125300555,
+      "urban_population_pct": 72.5846286656,
+      "pm25_exposure": 14.3048173647,
+      "communicable_disease_death_pct": 5.2919333173
+    },
+    {
+      "iso3": "ECU",
+      "country_name": "Ecuador",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 5355.6893419644,
+      "urban_population_pct": 64.166,
+      "pm25_exposure": 16.6570210759,
+      "communicable_disease_death_pct": 12.336792969
+    },
+    {
+      "iso3": "EGY",
+      "country_name": "Egypt, Arab Rep.",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 3770.8694786742,
+      "urban_population_pct": 42.783,
+      "pm25_exposure": 54.8587056496,
+      "communicable_disease_death_pct": 9.6284608131
+    },
+    {
+      "iso3": "EMU",
+      "country_name": "Euro area",
+      "region": "Aggregates",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 34605.7692985848,
+      "urban_population_pct": 77.2349813594,
+      "pm25_exposure": 11.0040291952,
+      "communicable_disease_death_pct": 5.7313607985
+    },
+    {
+      "iso3": "ERI",
+      "country_name": "Eritrea",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 751.3748997947,
+      "urban_population_pct": 41.347,
+      "pm25_exposure": 32.3515206387,
+      "communicable_disease_death_pct": 38.6445053843
+    },
+    {
+      "iso3": "ESP",
+      "country_name": "Spain",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 25077.019882928,
+      "urban_population_pct": 80.81,
+      "pm25_exposure": 9.5810546069,
+      "communicable_disease_death_pct": 5.6104446648
+    },
+    {
+      "iso3": "EST",
+      "country_name": "Estonia",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 19946.945696898,
+      "urban_population_pct": 69.229,
+      "pm25_exposure": 6.1457329097,
+      "communicable_disease_death_pct": 3.5825993287
+    },
+    {
+      "iso3": "ETH",
+      "country_name": "Ethiopia",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 799.4755952796,
+      "urban_population_pct": 21.695,
+      "pm25_exposure": 27.305327647,
+      "communicable_disease_death_pct": 44.6543152777
+    },
+    {
+      "iso3": "EUU",
+      "country_name": "European Union",
+      "region": "Aggregates",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 31437.8963906325,
+      "urban_population_pct": 74.975987216,
+      "pm25_exposure": 11.8363007509,
+      "communicable_disease_death_pct": 5.5519500848
+    },
+    {
+      "iso3": "FCS",
+      "country_name": "Fragile and conflict affected situations",
+      "region": "Aggregates",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1700.8157456484,
+      "urban_population_pct": 43.6394229966,
+      "pm25_exposure": 38.1474819052,
+      "communicable_disease_death_pct": 45.0155437957
+    },
+    {
+      "iso3": "FIN",
+      "country_name": "Finland",
+      "region": "Europe & Central Asia",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 44690.9801103074,
+      "urban_population_pct": 85.517,
+      "pm25_exposure": 4.8951809022,
+      "communicable_disease_death_pct": 1.4241670701
+    },
+    {
+      "iso3": "FJI",
+      "country_name": "Fiji",
+      "region": "East Asia & Pacific",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 4729.3813108251,
+      "urban_population_pct": 57.247,
+      "pm25_exposure": 12.4187981717,
+      "communicable_disease_death_pct": 9.3505396182
+    },
+    {
+      "iso3": "FRA",
+      "country_name": "France",
+      "region": "Europe & Central Asia",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 35709.2045925926,
+      "urban_population_pct": 80.975,
+      "pm25_exposure": 9.6003814478,
+      "communicable_disease_death_pct": 6.3680280364
+    },
+    {
+      "iso3": "FSM",
+      "country_name": "Micronesia, Fed. Sts.",
+      "region": "East Asia & Pacific",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 2958.4886602227,
+      "urban_population_pct": 22.933,
+      "pm25_exposure": 12.1144203348,
+      "communicable_disease_death_pct": 12.7066300943
+    },
+    {
+      "iso3": "GAB",
+      "country_name": "Gabon",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 6534.2796652944,
+      "urban_population_pct": 90.092,
+      "pm25_exposure": 29.9548734559,
+      "communicable_disease_death_pct": 46.2702217334
+    },
+    {
+      "iso3": "GBR",
+      "country_name": "United Kingdom",
+      "region": "Europe & Central Asia",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 42429.1857996453,
+      "urban_population_pct": 83.903,
+      "pm25_exposure": 9.9128856028,
+      "communicable_disease_death_pct": 8.156775141
+    },
+    {
+      "iso3": "GEO",
+      "country_name": "Georgia",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 4659.6092531823,
+      "urban_population_pct": 59.453,
+      "pm25_exposure": 17.0438421059,
+      "communicable_disease_death_pct": 2.753144065
+    },
+    {
+      "iso3": "GHA",
+      "country_name": "Ghana",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1970.194114604,
+      "urban_population_pct": 57.349,
+      "pm25_exposure": 54.2427873098,
+      "communicable_disease_death_pct": 45.2381959069
+    },
+    {
+      "iso3": "GIN",
+      "country_name": "Guinea",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 945.5709033897,
+      "urban_population_pct": 36.875,
+      "pm25_exposure": 43.7674450148,
+      "communicable_disease_death_pct": 57.9601248878
+    },
+    {
+      "iso3": "GMB",
+      "country_name": "Gambia, The",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 670.7586428913,
+      "urban_population_pct": 62.582,
+      "pm25_exposure": 58.364040218,
+      "communicable_disease_death_pct": 52.1731291966
+    },
+    {
+      "iso3": "GNB",
+      "country_name": "Guinea-Bissau",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 706.6007834201,
+      "urban_population_pct": 44.196,
+      "pm25_exposure": 50.212765506,
+      "communicable_disease_death_pct": 57.6206587005
+    },
+    {
+      "iso3": "GNQ",
+      "country_name": "Equatorial Guinea",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 5575.2624151149,
+      "urban_population_pct": 73.1,
+      "pm25_exposure": 35.3790521812,
+      "communicable_disease_death_pct": 59.5093933289
+    },
+    {
+      "iso3": "GRC",
+      "country_name": "Greece",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 17486.951333323,
+      "urban_population_pct": 79.715,
+      "pm25_exposure": 14.4089280374,
+      "communicable_disease_death_pct": 12.8546065898
+    },
+    {
+      "iso3": "GRD",
+      "country_name": "Grenada",
+      "region": "Latin America & Caribbean ",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 8413.2833550037,
+      "urban_population_pct": 36.537,
+      "pm25_exposure": 24.6572416056,
+      "communicable_disease_death_pct": 11.3394877662
+    },
+    {
+      "iso3": "GTM",
+      "country_name": "Guatemala",
+      "region": "Latin America & Caribbean ",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 4005.838993622,
+      "urban_population_pct": 51.836,
+      "pm25_exposure": 21.635735592,
+      "communicable_disease_death_pct": 22.3097034591
+    },
+    {
+      "iso3": "GUY",
+      "country_name": "Guyana",
+      "region": "Latin America & Caribbean ",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 9010.6100046988,
+      "urban_population_pct": 26.786,
+      "pm25_exposure": 25.4606680473,
+      "communicable_disease_death_pct": 17.4113260047
+    },
+    {
+      "iso3": "HND",
+      "country_name": "Honduras",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 2189.4316866822,
+      "urban_population_pct": 58.359,
+      "pm25_exposure": 20.3136833897,
+      "communicable_disease_death_pct": 10.6834236927
+    },
+    {
+      "iso3": "HPC",
+      "country_name": "Heavily indebted poor countries (HIPC)",
+      "region": "Aggregates",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 953.5970868265,
+      "urban_population_pct": 37.0465389661,
+      "pm25_exposure": 36.1629038374,
+      "communicable_disease_death_pct": 49.3366537552
+    },
+    {
+      "iso3": "HRV",
+      "country_name": "Croatia",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 13544.9715102628,
+      "urban_population_pct": 57.553,
+      "pm25_exposure": 16.120859296,
+      "communicable_disease_death_pct": 3.3963940811
+    },
+    {
+      "iso3": "HTI",
+      "country_name": "Haiti",
+      "region": "Latin America & Caribbean ",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 1331.6977850693,
+      "urban_population_pct": 57.088,
+      "pm25_exposure": 21.3502554448,
+      "communicable_disease_death_pct": 24.6562332642
+    },
+    {
+      "iso3": "HUN",
+      "country_name": "Hungary",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 14664.2971195385,
+      "urban_population_pct": 71.942,
+      "pm25_exposure": 14.1364995764,
+      "communicable_disease_death_pct": 1.9768969117
+    },
+    {
+      "iso3": "IBD",
+      "country_name": "IBRD only",
+      "region": "Aggregates",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 6337.5458635944,
+      "urban_population_pct": 56.2572383997,
+      "pm25_exposure": 32.9550477515,
+      "communicable_disease_death_pct": 13.1737122729
+    },
+    {
+      "iso3": "IBT",
+      "country_name": "IDA & IBRD total",
+      "region": "Aggregates",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 5013.2326349164,
+      "urban_population_pct": 51.3285959695,
+      "pm25_exposure": 34.533096922,
+      "communicable_disease_death_pct": 21.0203585215
+    },
+    {
+      "iso3": "IDA",
+      "country_name": "IDA total",
+      "region": "Aggregates",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1399.7190540895,
+      "urban_population_pct": 37.8684932788,
+      "pm25_exposure": 38.8427428714,
+      "communicable_disease_death_pct": 43.9694630248
+    },
+    {
+      "iso3": "IDB",
+      "country_name": "IDA blend",
+      "region": "Aggregates",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1955.5454552873,
+      "urban_population_pct": 43.5265803419,
+      "pm25_exposure": 44.3434332456,
+      "communicable_disease_death_pct": 47.4722789558
+    },
+    {
+      "iso3": "IDN",
+      "country_name": "Indonesia",
+      "region": "East Asia & Pacific",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 3739.4490656316,
+      "urban_population_pct": 56.641,
+      "pm25_exposure": 17.8814994984,
+      "communicable_disease_death_pct": 18.925659552
+    },
+    {
+      "iso3": "IDX",
+      "country_name": "IDA only",
+      "region": "Aggregates",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1100.001333279,
+      "urban_population_pct": 34.8127799418,
+      "pm25_exposure": 35.8720333804,
+      "communicable_disease_death_pct": 41.8186094743
+    },
+    {
+      "iso3": "IND",
+      "country_name": "India",
+      "region": "South Asia",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1806.5011058388,
+      "urban_population_pct": 34.926,
+      "pm25_exposure": 48.3948115196,
+      "communicable_disease_death_pct": 24.1661843666
+    },
+    {
+      "iso3": "IRL",
+      "country_name": "Ireland",
+      "region": "Europe & Central Asia",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 80908.7924330406,
+      "urban_population_pct": 63.653,
+      "pm25_exposure": 8.1705860131,
+      "communicable_disease_death_pct": 5.6845956902
+    },
+    {
+      "iso3": "IRN",
+      "country_name": "Iran, Islamic Rep.",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 5127.9597569642,
+      "urban_population_pct": 75.874,
+      "pm25_exposure": 32.2873733599,
+      "communicable_disease_death_pct": 8.0891791759
+    },
+    {
+      "iso3": "IRQ",
+      "country_name": "Iraq",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 4213.9984376606,
+      "urban_population_pct": 70.893,
+      "pm25_exposure": 38.1750699788,
+      "communicable_disease_death_pct": 15.2968313867
+    },
+    {
+      "iso3": "ISL",
+      "country_name": "Iceland",
+      "region": "Europe & Central Asia",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 52641.7234922236,
+      "urban_population_pct": 93.898,
+      "pm25_exposure": 5.105548275,
+      "communicable_disease_death_pct": 4.9680230064
+    },
+    {
+      "iso3": "ISR",
+      "country_name": "Israel",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 37935.5432717179,
+      "urban_population_pct": 92.587,
+      "pm25_exposure": 18.5982756348,
+      "communicable_disease_death_pct": 10.3180117828
+    },
+    {
+      "iso3": "ITA",
+      "country_name": "Italy",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 29469.7989238626,
+      "urban_population_pct": 71.039,
+      "pm25_exposure": 14.658638624,
+      "communicable_disease_death_pct": 5.5047880465
+    },
+    {
+      "iso3": "JAM",
+      "country_name": "Jamaica",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 4752.3334090448,
+      "urban_population_pct": 56.311,
+      "pm25_exposure": 17.4136370416,
+      "communicable_disease_death_pct": 8.973658908
+    },
+    {
+      "iso3": "JOR",
+      "country_name": "Jordan",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 3806.8794935491,
+      "urban_population_pct": 91.418,
+      "pm25_exposure": 28.7737639174,
+      "communicable_disease_death_pct": 10.0102290534
+    },
+    {
+      "iso3": "JPN",
+      "country_name": "Japan",
+      "region": "East Asia & Pacific",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 34642.9718743239,
+      "urban_population_pct": 91.782,
+      "pm25_exposure": 12.835201663,
+      "communicable_disease_death_pct": 10.2966193961
+    },
+    {
+      "iso3": "KAZ",
+      "country_name": "Kazakhstan",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 10565.0359816235,
+      "urban_population_pct": 57.671,
+      "pm25_exposure": 20.0278724259,
+      "communicable_disease_death_pct": 5.1246947044
+    },
+    {
+      "iso3": "KEN",
+      "country_name": "Kenya",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1609.3341407828,
+      "urban_population_pct": 27.995,
+      "pm25_exposure": 24.3917906518,
+      "communicable_disease_death_pct": 48.289912081
+    },
+    {
+      "iso3": "KGZ",
+      "country_name": "Kyrgyz Republic",
+      "region": "Europe & Central Asia",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 1093.3285646142,
+      "urban_population_pct": 36.856,
+      "pm25_exposure": 24.3817252282,
+      "communicable_disease_death_pct": 10.4414310543
+    },
+    {
+      "iso3": "KHM",
+      "country_name": "Cambodia",
+      "region": "East Asia & Pacific",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 1908.6342751834,
+      "urban_population_pct": 24.232,
+      "pm25_exposure": 24.1436022803,
+      "communicable_disease_death_pct": 23.0343168225
+    },
+    {
+      "iso3": "KIR",
+      "country_name": "Kiribati",
+      "region": "East Asia & Pacific",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 1777.0449249898,
+      "urban_population_pct": 55.594,
+      "pm25_exposure": 11.2568272545,
+      "communicable_disease_death_pct": 21.6167598806
+    },
+    {
+      "iso3": "KOR",
+      "country_name": "Korea, Rep.",
+      "region": "East Asia & Pacific",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 31378.1579340648,
+      "urban_population_pct": 81.414,
+      "pm25_exposure": 25.9439899532,
+      "communicable_disease_death_pct": 12.8287871493
+    },
+    {
+      "iso3": "KWT",
+      "country_name": "Kuwait",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 25541.4107576862,
+      "urban_population_pct": 100.0,
+      "pm25_exposure": 53.7151434413,
+      "communicable_disease_death_pct": 7.0855311712
+    },
+    {
+      "iso3": "LAC",
+      "country_name": "Latin America & Caribbean (excluding high income)",
+      "region": "Aggregates",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 7670.3441901356,
+      "urban_population_pct": 80.6299945481,
+      "pm25_exposure": 15.484465828,
+      "communicable_disease_death_pct": 13.456771354
+    },
+    {
+      "iso3": "LAO",
+      "country_name": "Lao PDR",
+      "region": "East Asia & Pacific",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 2529.7462269876,
+      "urban_population_pct": 36.29,
+      "pm25_exposure": 22.3176670506,
+      "communicable_disease_death_pct": 25.6405037341
+    },
+    {
+      "iso3": "LBN",
+      "country_name": "Lebanon",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 6440.8284309292,
+      "urban_population_pct": 88.925,
+      "pm25_exposure": 19.2310172881,
+      "communicable_disease_death_pct": 5.5533774811
+    },
+    {
+      "iso3": "LBR",
+      "country_name": "Liberia",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 605.0254754314,
+      "urban_population_pct": 52.089,
+      "pm25_exposure": 42.3616590279,
+      "communicable_disease_death_pct": 58.4314977294
+    },
+    {
+      "iso3": "LBY",
+      "country_name": "Libya",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 6102.7986403251,
+      "urban_population_pct": 80.691,
+      "pm25_exposure": 32.9707065003,
+      "communicable_disease_death_pct": 10.39285333
+    },
+    {
+      "iso3": "LCA",
+      "country_name": "St. Lucia",
+      "region": "Latin America & Caribbean ",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 8379.2749509739,
+      "urban_population_pct": 18.841,
+      "pm25_exposure": 23.7585855502,
+      "communicable_disease_death_pct": 7.9406531999
+    },
+    {
+      "iso3": "LCN",
+      "country_name": "Latin America & Caribbean",
+      "region": "Aggregates",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 8144.0868927763,
+      "urban_population_pct": 81.0877969257,
+      "pm25_exposure": 15.6429982832,
+      "communicable_disease_death_pct": 13.267038593
+    },
+    {
+      "iso3": "LDC",
+      "country_name": "Least developed countries: UN classification",
+      "region": "Aggregates",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1027.5795193121,
+      "urban_population_pct": 34.7409228785,
+      "pm25_exposure": 35.8831468849,
+      "communicable_disease_death_pct": 44.2003362676
+    },
+    {
+      "iso3": "LKA",
+      "country_name": "Sri Lanka",
+      "region": "South Asia",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 4227.2331530659,
+      "urban_population_pct": 18.713,
+      "pm25_exposure": 19.9644408636,
+      "communicable_disease_death_pct": 9.4702421236
+    },
+    {
+      "iso3": "LMY",
+      "country_name": "Low & middle income",
+      "region": "Aggregates",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 4808.9333137926,
+      "urban_population_pct": 51.0358692115,
+      "pm25_exposure": 35.5143257094,
+      "communicable_disease_death_pct": 21.7193022624
+    },
+    {
+      "iso3": "LSO",
+      "country_name": "Lesotho",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 944.8341186586,
+      "urban_population_pct": 29.028,
+      "pm25_exposure": 23.439101324,
+      "communicable_disease_death_pct": 42.1882542295
+    },
+    {
+      "iso3": "LTE",
+      "country_name": "Late-demographic dividend",
+      "region": "Aggregates",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 9880.4581016228,
+      "urban_population_pct": 64.0329696632,
+      "pm25_exposure": 28.2348171375,
+      "communicable_disease_death_pct": 5.6390345005
+    },
+    {
+      "iso3": "LTU",
+      "country_name": "Lithuania",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 17443.65526328,
+      "urban_population_pct": 68.046,
+      "pm25_exposure": 9.2189386036,
+      "communicable_disease_death_pct": 3.414327994
+    },
+    {
+      "iso3": "LUX",
+      "country_name": "Luxembourg",
+      "region": "Europe & Central Asia",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 105274.2471768,
+      "urban_population_pct": 91.453,
+      "pm25_exposure": 8.6747618954,
+      "communicable_disease_death_pct": 5.356611264
+    },
+    {
+      "iso3": "LVA",
+      "country_name": "Latvia",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 14900.7295718866,
+      "urban_population_pct": 68.315,
+      "pm25_exposure": 11.6020322024,
+      "communicable_disease_death_pct": 3.0407650241
+    },
+    {
+      "iso3": "MAR",
+      "country_name": "Morocco",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 3090.8942871094,
+      "urban_population_pct": 63.532,
+      "pm25_exposure": 21.3212642117,
+      "communicable_disease_death_pct": 8.9061293773
+    },
+    {
+      "iso3": "MDA",
+      "country_name": "Moldova",
+      "region": "Europe & Central Asia",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 3188.916916027,
+      "urban_population_pct": 42.849,
+      "pm25_exposure": 14.7583463021,
+      "communicable_disease_death_pct": 4.4705031453
+    },
+    {
+      "iso3": "MDG",
+      "country_name": "Madagascar",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 422.9242554223,
+      "urban_population_pct": 38.534,
+      "pm25_exposure": 12.753519951,
+      "communicable_disease_death_pct": 45.4594448823
+    },
+    {
+      "iso3": "MDV",
+      "country_name": "Maldives",
+      "region": "South Asia",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 7295.6022132491,
+      "urban_population_pct": 40.669,
+      "pm25_exposure": 12.0123911669,
+      "communicable_disease_death_pct": 8.1593212284
+    },
+    {
+      "iso3": "MEA",
+      "country_name": "Middle East, North Africa, Afghanistan & Pakistan",
+      "region": "Aggregates",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 5043.7594964613,
+      "urban_population_pct": 54.4074384854,
+      "pm25_exposure": 39.7214311767,
+      "communicable_disease_death_pct": 21.3417502549
+    },
+    {
+      "iso3": "MEX",
+      "country_name": "Mexico",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 9234.6436240925,
+      "urban_population_pct": 80.731,
+      "pm25_exposure": 14.9923440243,
+      "communicable_disease_death_pct": 9.0934368361
+    },
+    {
+      "iso3": "MIC",
+      "country_name": "Middle income",
+      "region": "Aggregates",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 5210.0662393463,
+      "urban_population_pct": 52.4827584151,
+      "pm25_exposure": 35.4245271811,
+      "communicable_disease_death_pct": 19.1211567544
+    },
+    {
+      "iso3": "MKD",
+      "country_name": "North Macedonia",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 5743.7264942458,
+      "urban_population_pct": 58.482,
+      "pm25_exposure": 26.1186514015,
+      "communicable_disease_death_pct": 1.2836109948
+    },
+    {
+      "iso3": "MLI",
+      "country_name": "Mali",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 872.3897211021,
+      "urban_population_pct": 43.909,
+      "pm25_exposure": 56.7830489223,
+      "communicable_disease_death_pct": 60.2543251798
+    },
+    {
+      "iso3": "MLT",
+      "country_name": "Malta",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 27890.3651055057,
+      "urban_population_pct": 94.744,
+      "pm25_exposure": 11.7226648774,
+      "communicable_disease_death_pct": 7.0021335427
+    },
+    {
+      "iso3": "MMR",
+      "country_name": "Myanmar",
+      "region": "East Asia & Pacific",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 1301.3138635067,
+      "urban_population_pct": 31.141,
+      "pm25_exposure": 32.3150340029,
+      "communicable_disease_death_pct": 21.5972988139
+    },
+    {
+      "iso3": "MNA",
+      "country_name": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
+      "region": "Aggregates",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 2828.4309099898,
+      "urban_population_pct": 51.311662677,
+      "pm25_exposure": 39.1850228116,
+      "communicable_disease_death_pct": 22.2082872143
+    },
+    {
+      "iso3": "MNE",
+      "country_name": "Montenegro",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 6460.5916317575,
+      "urban_population_pct": 67.488,
+      "pm25_exposure": 17.9824100566,
+      "communicable_disease_death_pct": 1.4138763198
+    },
+    {
+      "iso3": "MNG",
+      "country_name": "Mongolia",
+      "region": "East Asia & Pacific",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 4066.0341088279,
+      "urban_population_pct": 68.657,
+      "pm25_exposure": 29.6547866482,
+      "communicable_disease_death_pct": 6.309566022
+    },
+    {
+      "iso3": "MOZ",
+      "country_name": "Mozambique",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 591.8040599859,
+      "urban_population_pct": 37.074,
+      "pm25_exposure": 20.0802484321,
+      "communicable_disease_death_pct": 54.439636604
+    },
+    {
+      "iso3": "MRT",
+      "country_name": "Mauritania",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1553.3061558659,
+      "urban_population_pct": 55.327,
+      "pm25_exposure": 70.8224442104,
+      "communicable_disease_death_pct": 52.712800202
+    },
+    {
+      "iso3": "MUS",
+      "country_name": "Mauritius",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 9362.8743589682,
+      "urban_population_pct": 40.76,
+      "pm25_exposure": 9.1529688058,
+      "communicable_disease_death_pct": 7.2643992182
+    },
+    {
+      "iso3": "MWI",
+      "country_name": "Malawi",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 559.4470860861,
+      "urban_population_pct": 17.427,
+      "pm25_exposure": 23.6983194353,
+      "communicable_disease_death_pct": 49.6472479887
+    },
+    {
+      "iso3": "MYS",
+      "country_name": "Malaysia",
+      "region": "East Asia & Pacific",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 10171.4657842762,
+      "urban_population_pct": 77.16,
+      "pm25_exposure": 16.1938532238,
+      "communicable_disease_death_pct": 18.1386030746
+    },
+    {
+      "iso3": "NAC",
+      "country_name": "North America",
+      "region": "Aggregates",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 57729.9684953847,
+      "urban_population_pct": 82.5536546891,
+      "pm25_exposure": 7.6862681415,
+      "communicable_disease_death_pct": 5.2563938211
+    },
+    {
+      "iso3": "NAM",
+      "country_name": "Namibia",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 3787.4994397329,
+      "urban_population_pct": 52.033,
+      "pm25_exposure": 19.9945355711,
+      "communicable_disease_death_pct": 45.150332609
+    },
+    {
+      "iso3": "NER",
+      "country_name": "Niger",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 533.1943289103,
+      "urban_population_pct": 16.626,
+      "pm25_exposure": 85.1223455605,
+      "communicable_disease_death_pct": 59.1736143291
+    },
+    {
+      "iso3": "NGA",
+      "country_name": "Nigeria",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 2337.5758738807,
+      "urban_population_pct": 51.958,
+      "pm25_exposure": 56.5313287289,
+      "communicable_disease_death_pct": 65.2078910459
+    },
+    {
+      "iso3": "NIC",
+      "country_name": "Nicaragua",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 1950.1918121847,
+      "urban_population_pct": 59.012,
+      "pm25_exposure": 16.8097725388,
+      "communicable_disease_death_pct": 9.4505421699
+    },
+    {
+      "iso3": "NLD",
+      "country_name": "Netherlands",
+      "region": "Europe & Central Asia",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 47086.5804192702,
+      "urban_population_pct": 92.236,
+      "pm25_exposure": 10.889249847,
+      "communicable_disease_death_pct": 6.0008238442
+    },
+    {
+      "iso3": "NOR",
+      "country_name": "Norway",
+      "region": "Europe & Central Asia",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 75287.2059527598,
+      "urban_population_pct": 82.974,
+      "pm25_exposure": 6.0558972467,
+      "communicable_disease_death_pct": 7.679579779
+    },
+    {
+      "iso3": "NPL",
+      "country_name": "Nepal",
+      "region": "South Asia",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1031.5361878393,
+      "urban_population_pct": 20.576,
+      "pm25_exposure": 45.7207706413,
+      "communicable_disease_death_pct": 24.820832961
+    },
+    {
+      "iso3": "NZL",
+      "country_name": "New Zealand",
+      "region": "East Asia & Pacific",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 39646.3466853422,
+      "urban_population_pct": 86.699,
+      "pm25_exposure": 6.4859149968,
+      "communicable_disease_death_pct": 4.3547304313
+    },
+    {
+      "iso3": "OED",
+      "country_name": "OECD members",
+      "region": "Aggregates",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 36403.4857351902,
+      "urban_population_pct": 81.0327653325,
+      "pm25_exposure": 12.2286170794,
+      "communicable_disease_death_pct": 6.7293354968
+    },
+    {
+      "iso3": "OMN",
+      "country_name": "Oman",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 17743.8858800477,
+      "urban_population_pct": 86.276,
+      "pm25_exposure": 39.5835768903,
+      "communicable_disease_death_pct": 9.764623651
+    },
+    {
+      "iso3": "OSS",
+      "country_name": "Other small states",
+      "region": "Aggregates",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 10967.2475628547,
+      "urban_population_pct": 55.0796303403,
+      "pm25_exposure": 16.7589669503,
+      "communicable_disease_death_pct": 18.8155733943
+    },
+    {
+      "iso3": "PAK",
+      "country_name": "Pakistan",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1526.0059748631,
+      "urban_population_pct": 37.165,
+      "pm25_exposure": 42.998173425,
+      "communicable_disease_death_pct": 33.1479592293
+    },
+    {
+      "iso3": "PAN",
+      "country_name": "Panama",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 12647.082664124,
+      "urban_population_pct": 68.414,
+      "pm25_exposure": 11.470060749,
+      "communicable_disease_death_pct": 13.3672704197
+    },
+    {
+      "iso3": "PER",
+      "country_name": "Peru",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 5831.8302475852,
+      "urban_population_pct": 78.297,
+      "pm25_exposure": 27.0356284969,
+      "communicable_disease_death_pct": 17.5375809964
+    },
+    {
+      "iso3": "PHL",
+      "country_name": "Philippines",
+      "region": "East Asia & Pacific",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 3198.6669000841,
+      "urban_population_pct": 47.408,
+      "pm25_exposure": 20.2887417123,
+      "communicable_disease_death_pct": 24.2816646651
+    },
+    {
+      "iso3": "PNG",
+      "country_name": "Papua New Guinea",
+      "region": "East Asia & Pacific",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 2438.6113792229,
+      "urban_population_pct": 13.345,
+      "pm25_exposure": 17.3105425567,
+      "communicable_disease_death_pct": 30.2720267839
+    },
+    {
+      "iso3": "POL",
+      "country_name": "Poland",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 15090.2228440113,
+      "urban_population_pct": 60.043,
+      "pm25_exposure": 17.9583314937,
+      "communicable_disease_death_pct": 5.8522208221
+    },
+    {
+      "iso3": "PRE",
+      "country_name": "Pre-demographic dividend",
+      "region": "Aggregates",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1415.4091318503,
+      "urban_population_pct": 42.5266498157,
+      "pm25_exposure": 40.7072055821,
+      "communicable_disease_death_pct": 54.7690772224
+    },
+    {
+      "iso3": "PRT",
+      "country_name": "Portugal",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 19778.7138519007,
+      "urban_population_pct": 66.31,
+      "pm25_exposure": 8.4524226624,
+      "communicable_disease_death_pct": 8.517003445
+    },
+    {
+      "iso3": "PRY",
+      "country_name": "Paraguay",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 6109.1960810062,
+      "urban_population_pct": 62.183,
+      "pm25_exposure": 10.0891599098,
+      "communicable_disease_death_pct": 13.9540688456
+    },
+    {
+      "iso3": "PSS",
+      "country_name": "Pacific island small states",
+      "region": "Aggregates",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 3526.9182486697,
+      "urban_population_pct": 38.8185116377,
+      "pm25_exposure": 12.8773179906,
+      "communicable_disease_death_pct": 15.1089328636
+    },
+    {
+      "iso3": "PST",
+      "country_name": "Post-demographic dividend",
+      "region": "Aggregates",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 41732.4405643462,
+      "urban_population_pct": 81.6627037423,
+      "pm25_exposure": 10.9979683149,
+      "communicable_disease_death_pct": 6.3133173182
+    },
+    {
+      "iso3": "QAT",
+      "country_name": "Qatar",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 57769.604104354,
+      "urban_population_pct": 99.235,
+      "pm25_exposure": 75.6630329481,
+      "communicable_disease_death_pct": 4.9504857278
+    },
+    {
+      "iso3": "ROU",
+      "country_name": "Romania",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 10916.3126056493,
+      "urban_population_pct": 54.194,
+      "pm25_exposure": 14.8501731265,
+      "communicable_disease_death_pct": 5.3276976192
+    },
+    {
+      "iso3": "RUS",
+      "country_name": "Russian Federation",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 9632.3251953125,
+      "urban_population_pct": 74.754,
+      "pm25_exposure": 11.2727775887,
+      "communicable_disease_death_pct": 3.9034529707
+    },
+    {
+      "iso3": "RWA",
+      "country_name": "Rwanda",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 826.391308275,
+      "urban_population_pct": 17.432,
+      "pm25_exposure": 31.2882654918,
+      "communicable_disease_death_pct": 38.1809158838
+    },
+    {
+      "iso3": "SAS",
+      "country_name": "South Asia",
+      "region": "Aggregates",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1806.9904538967,
+      "urban_population_pct": 34.789155982,
+      "pm25_exposure": 47.3228429415,
+      "communicable_disease_death_pct": 23.8445704341
+    },
+    {
+      "iso3": "SAU",
+      "country_name": "Saudi Arabia",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 22827.671935548,
+      "urban_population_pct": 84.287,
+      "pm25_exposure": 53.1486013629,
+      "communicable_disease_death_pct": 7.1305565303
+    },
+    {
+      "iso3": "SDN",
+      "country_name": "Sudan",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1056.8647460938,
+      "urban_population_pct": 35.253,
+      "pm25_exposure": 45.8349025581,
+      "communicable_disease_death_pct": 35.5456510407
+    },
+    {
+      "iso3": "SEN",
+      "country_name": "Senegal",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1361.7914374865,
+      "urban_population_pct": 48.122,
+      "pm25_exposure": 63.7402211262,
+      "communicable_disease_death_pct": 43.754607846
+    },
+    {
+      "iso3": "SGP",
+      "country_name": "Singapore",
+      "region": "East Asia & Pacific",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 59189.70385743,
+      "urban_population_pct": 100.0,
+      "pm25_exposure": 13.8691955865,
+      "communicable_disease_death_pct": 20.7052204629
+    },
+    {
+      "iso3": "SLB",
+      "country_name": "Solomon Islands",
+      "region": "East Asia & Pacific",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 1930.6425859641,
+      "urban_population_pct": 24.67,
+      "pm25_exposure": 13.9542830082,
+      "communicable_disease_death_pct": 23.3994420495
+    },
+    {
+      "iso3": "SLE",
+      "country_name": "Sierra Leone",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1010.2529461476,
+      "urban_population_pct": 42.923,
+      "pm25_exposure": 43.2210935037,
+      "communicable_disease_death_pct": 56.6757595572
+    },
+    {
+      "iso3": "SLV",
+      "country_name": "El Salvador",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 3808.5319543641,
+      "urban_population_pct": 73.444,
+      "pm25_exposure": 20.02871445,
+      "communicable_disease_death_pct": 15.7989247029
+    },
+    {
+      "iso3": "SOM",
+      "country_name": "Somalia, Fed. Rep.",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 463.0325248382,
+      "urban_population_pct": 46.141,
+      "pm25_exposure": 24.5251082186,
+      "communicable_disease_death_pct": 61.0164601668
+    },
+    {
+      "iso3": "SRB",
+      "country_name": "Serbia",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 6850.9667781114,
+      "urban_population_pct": 56.446,
+      "pm25_exposure": 22.5075355689,
+      "communicable_disease_death_pct": 2.7097322381
+    },
+    {
+      "iso3": "SSA",
+      "country_name": "Sub-Saharan Africa (excluding high income)",
+      "region": "Aggregates",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1622.2475751234,
+      "urban_population_pct": 43.5952496877,
+      "pm25_exposure": 39.4118680774,
+      "communicable_disease_death_pct": 54.3667850897
+    },
+    {
+      "iso3": "SSD",
+      "country_name": "South Sudan",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1080.1471862477,
+      "urban_population_pct": 20.199,
+      "pm25_exposure": 30.7373478613,
+      "communicable_disease_death_pct": 61.3045825239
+    },
+    {
+      "iso3": "SSF",
+      "country_name": "Sub-Saharan Africa",
+      "region": "Aggregates",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1539.8506816754,
+      "urban_population_pct": 41.3686297862,
+      "pm25_exposure": 38.1777310513,
+      "communicable_disease_death_pct": 53.6009012701
+    },
+    {
+      "iso3": "SST",
+      "country_name": "Small states",
+      "region": "Aggregates",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 10314.4833183078,
+      "urban_population_pct": 51.4005017222,
+      "pm25_exposure": 18.0957979628,
+      "communicable_disease_death_pct": 16.6942300146
+    },
+    {
+      "iso3": "STP",
+      "country_name": "Sao Tome and Principe",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 1430.841192991,
+      "urban_population_pct": 74.354,
+      "pm25_exposure": 27.3357522768,
+      "communicable_disease_death_pct": 30.9546637025
+    },
+    {
+      "iso3": "SUR",
+      "country_name": "Suriname",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 7213.1076666994,
+      "urban_population_pct": 66.149,
+      "pm25_exposure": 27.3059698426,
+      "communicable_disease_death_pct": 11.8146625911
+    },
+    {
+      "iso3": "SVK",
+      "country_name": "Slovak Republic",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 17763.8563847352,
+      "urban_population_pct": 53.76,
+      "pm25_exposure": 15.3916194257,
+      "communicable_disease_death_pct": 5.1047752484
+    },
+    {
+      "iso3": "SVN",
+      "country_name": "Slovenia",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 22811.8050540778,
+      "urban_population_pct": 55.118,
+      "pm25_exposure": 14.2911527507,
+      "communicable_disease_death_pct": 2.6549563947
+    },
+    {
+      "iso3": "SWE",
+      "country_name": "Sweden",
+      "region": "Europe & Central Asia",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 51715.7810359674,
+      "urban_population_pct": 87.977,
+      "pm25_exposure": 5.636707906,
+      "communicable_disease_death_pct": 5.9154617724
+    },
+    {
+      "iso3": "SWZ",
+      "country_name": "Eswatini",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 3596.0641610405,
+      "urban_population_pct": 24.171,
+      "pm25_exposure": 18.7831211423,
+      "communicable_disease_death_pct": 42.0794029268
+    },
+    {
+      "iso3": "SYC",
+      "country_name": "Seychelles",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 17048.361729788,
+      "urban_population_pct": 57.546,
+      "pm25_exposure": 8.4998385772,
+      "communicable_disease_death_pct": 13.4850864127
+    },
+    {
+      "iso3": "SYR",
+      "country_name": "Syrian Arab Republic",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 740.8113970134,
+      "urban_population_pct": 55.475,
+      "pm25_exposure": 24.7058382627,
+      "communicable_disease_death_pct": 10.6566129269
+    },
+    {
+      "iso3": "TCD",
+      "country_name": "Chad",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 884.7308746876,
+      "urban_population_pct": 23.52,
+      "pm25_exposure": 49.1388484128,
+      "communicable_disease_death_pct": 63.4475184753
+    },
+    {
+      "iso3": "TEA",
+      "country_name": "East Asia & Pacific (IDA & IBRD countries)",
+      "region": "Aggregates",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 8386.6413997395,
+      "urban_population_pct": 57.4239114272,
+      "pm25_exposure": 30.4069592021,
+      "communicable_disease_death_pct": 8.1178199732
+    },
+    {
+      "iso3": "TEC",
+      "country_name": "Europe & Central Asia (IDA & IBRD countries)",
+      "region": "Aggregates",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 8746.4548493978,
+      "urban_population_pct": 66.6377675914,
+      "pm25_exposure": 17.9080689403,
+      "communicable_disease_death_pct": 4.5949224908
+    },
+    {
+      "iso3": "TGO",
+      "country_name": "Togo",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 806.9564903952,
+      "urban_population_pct": 42.8,
+      "pm25_exposure": 51.6661369398,
+      "communicable_disease_death_pct": 48.5624412208
+    },
+    {
+      "iso3": "THA",
+      "country_name": "Thailand",
+      "region": "East Asia & Pacific",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 6035.1862773708,
+      "urban_population_pct": 51.43,
+      "pm25_exposure": 31.0072016277,
+      "communicable_disease_death_pct": 13.9039699177
+    },
+    {
+      "iso3": "TJK",
+      "country_name": "Tajikistan",
+      "region": "Europe & Central Asia",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 1171.9012748036,
+      "urban_population_pct": 27.506,
+      "pm25_exposure": 37.0534062306,
+      "communicable_disease_death_pct": 19.4927277241
+    },
+    {
+      "iso3": "TKM",
+      "country_name": "Turkmenistan",
+      "region": "Europe & Central Asia",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 6965.1122688929,
+      "urban_population_pct": 52.516,
+      "pm25_exposure": 19.5997611438,
+      "communicable_disease_death_pct": 21.9530614356
+    },
+    {
+      "iso3": "TLA",
+      "country_name": "Latin America & the Caribbean (IDA & IBRD countries)",
+      "region": "Aggregates",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 8021.3892006719,
+      "urban_population_pct": 81.090165705,
+      "pm25_exposure": 15.5869189206,
+      "communicable_disease_death_pct": 13.3863824768
+    },
+    {
+      "iso3": "TLS",
+      "country_name": "Timor-Leste",
+      "region": "East Asia & Pacific",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 1947.8399413707,
+      "urban_population_pct": 31.32,
+      "pm25_exposure": 17.4104661971,
+      "communicable_disease_death_pct": 40.0552374197
+    },
+    {
+      "iso3": "TMN",
+      "country_name": "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",
+      "region": "Aggregates",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 2827.7741314471,
+      "urban_population_pct": 51.1342115026,
+      "pm25_exposure": 39.2745706384,
+      "communicable_disease_death_pct": 22.2082872143
+    },
+    {
+      "iso3": "TON",
+      "country_name": "Tonga",
+      "region": "East Asia & Pacific",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 4656.9318749327,
+      "urban_population_pct": 23.099,
+      "pm25_exposure": 12.4784129505,
+      "communicable_disease_death_pct": 11.0828438007
+    },
+    {
+      "iso3": "TSA",
+      "country_name": "South Asia (IDA & IBRD)",
+      "region": "Aggregates",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1806.9904538967,
+      "urban_population_pct": 34.789155982,
+      "pm25_exposure": 47.3228429415,
+      "communicable_disease_death_pct": 23.8445704341
+    },
+    {
+      "iso3": "TSS",
+      "country_name": "Sub-Saharan Africa (IDA & IBRD countries)",
+      "region": "Aggregates",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1539.8506816754,
+      "urban_population_pct": 41.3686297862,
+      "pm25_exposure": 38.1777310513,
+      "communicable_disease_death_pct": 53.6009012701
+    },
+    {
+      "iso3": "TTO",
+      "country_name": "Trinidad and Tobago",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 15686.0929022811,
+      "urban_population_pct": 53.214,
+      "pm25_exposure": 25.6022583642,
+      "communicable_disease_death_pct": 6.9772177074
+    },
+    {
+      "iso3": "TUN",
+      "country_name": "Tunisia",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 3749.267224358,
+      "urban_population_pct": 69.568,
+      "pm25_exposure": 24.1829826735,
+      "communicable_disease_death_pct": 7.1445590556
+    },
+    {
+      "iso3": "TUR",
+      "country_name": "Turkiye",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 12179.6626536773,
+      "urban_population_pct": 76.105,
+      "pm25_exposure": 21.612046918,
+      "communicable_disease_death_pct": 5.1653184719
+    },
+    {
+      "iso3": "TZA",
+      "country_name": "Tanzania",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1041.2596435547,
+      "urban_population_pct": 35.227,
+      "pm25_exposure": 25.0814311535,
+      "communicable_disease_death_pct": 54.3369886339
+    },
+    {
+      "iso3": "UGA",
+      "country_name": "Uganda",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 917.0350317644,
+      "urban_population_pct": 24.954,
+      "pm25_exposure": 33.8077192572,
+      "communicable_disease_death_pct": 51.6605577071
+    },
+    {
+      "iso3": "UKR",
+      "country_name": "Ukraine",
+      "region": "Europe & Central Asia",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 2324.107421875,
+      "urban_population_pct": 69.608,
+      "pm25_exposure": 14.9001009888,
+      "communicable_disease_death_pct": 3.1338159555
+    },
+    {
+      "iso3": "URY",
+      "country_name": "Uruguay",
+      "region": "Latin America & Caribbean ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 16443.3635000843,
+      "urban_population_pct": 95.515,
+      "pm25_exposure": 10.5717923259,
+      "communicable_disease_death_pct": 7.154288717
+    },
+    {
+      "iso3": "USA",
+      "country_name": "United States",
+      "region": "North America",
+      "cluster": 2,
+      "gdp_per_capita_constant_2015usd": 59484.0335530935,
+      "urban_population_pct": 82.664,
+      "pm25_exposure": 7.8148575237,
+      "communicable_disease_death_pct": 5.3020598009
+    },
+    {
+      "iso3": "UZB",
+      "country_name": "Uzbekistan",
+      "region": "Europe & Central Asia",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 3249.0519109402,
+      "urban_population_pct": 50.416,
+      "pm25_exposure": 31.960429456,
+      "communicable_disease_death_pct": 8.2083159689
+    },
+    {
+      "iso3": "VCT",
+      "country_name": "St. Vincent and the Grenadines",
+      "region": "Latin America & Caribbean ",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 7981.6485814483,
+      "urban_population_pct": 53.032,
+      "pm25_exposure": 23.9262758482,
+      "communicable_disease_death_pct": 13.1084180064
+    },
+    {
+      "iso3": "VNM",
+      "country_name": "Viet Nam",
+      "region": "East Asia & Pacific",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 3303.1694980749,
+      "urban_population_pct": 37.34,
+      "pm25_exposure": 20.8010641731,
+      "communicable_disease_death_pct": 9.3049411239
+    },
+    {
+      "iso3": "VUT",
+      "country_name": "Vanuatu",
+      "region": "East Asia & Pacific",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 2771.8709880805,
+      "urban_population_pct": 25.525,
+      "pm25_exposure": 14.0824115365,
+      "communicable_disease_death_pct": 16.857048612
+    },
+    {
+      "iso3": "WLD",
+      "country_name": "World",
+      "region": "Aggregates",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 10569.0440347692,
+      "urban_population_pct": 55.9623738262,
+      "pm25_exposure": 31.323166498,
+      "communicable_disease_death_pct": 18.4088503756
+    },
+    {
+      "iso3": "WSM",
+      "country_name": "Samoa",
+      "region": "East Asia & Pacific",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 4283.0728033798,
+      "urban_population_pct": 17.889,
+      "pm25_exposure": 12.5518952803,
+      "communicable_disease_death_pct": 10.3658660642
+    },
+    {
+      "iso3": "YEM",
+      "country_name": "Yemen, Rep.",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "cluster": 3,
+      "gdp_per_capita_constant_2015usd": 1079.3293837659,
+      "urban_population_pct": 37.908,
+      "pm25_exposure": 34.8323598356,
+      "communicable_disease_death_pct": 30.1455927055
+    },
+    {
+      "iso3": "ZAF",
+      "country_name": "South Africa",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 1,
+      "gdp_per_capita_constant_2015usd": 5569.5848331927,
+      "urban_population_pct": 67.354,
+      "pm25_exposure": 23.7530692424,
+      "communicable_disease_death_pct": 35.6803578328
+    },
+    {
+      "iso3": "ZMB",
+      "country_name": "Zambia",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1228.7350011319,
+      "urban_population_pct": 44.629,
+      "pm25_exposure": 24.3085919009,
+      "communicable_disease_death_pct": 56.5178526575
+    },
+    {
+      "iso3": "ZWE",
+      "country_name": "Zimbabwe",
+      "region": "Sub-Saharan Africa ",
+      "cluster": 0,
+      "gdp_per_capita_constant_2015usd": 1230.1915567107,
+      "urban_population_pct": 32.242,
+      "pm25_exposure": 19.4941796611,
+      "communicable_disease_death_pct": 47.6473006197
+    }
+  ],
+  "centers": [
+    {
+      "gdp_per_capita_constant_2015usd": 1307.999161924631,
+      "urban_population_pct": 39.85925473004659,
+      "pm25_exposure": 40.289229617848726,
+      "communicable_disease_death_pct": 49.26753513643884,
+      "cluster_id": 0,
+      "size": 56
+    },
+    {
+      "gdp_per_capita_constant_2015usd": 10735.338881739613,
+      "urban_population_pct": 71.25526745272462,
+      "pm25_exposure": 21.35121908363463,
+      "communicable_disease_death_pct": 9.98502150439065,
+      "cluster_id": 1,
+      "size": 84
+    },
+    {
+      "gdp_per_capita_constant_2015usd": 49754.509427622375,
+      "urban_population_pct": 84.57230307797577,
+      "pm25_exposure": 12.63239466372276,
+      "communicable_disease_death_pct": 6.633816066552122,
+      "cluster_id": 2,
+      "size": 30
+    },
+    {
+      "gdp_per_capita_constant_2015usd": 4855.0109033716035,
+      "urban_population_pct": 40.63013126638523,
+      "pm25_exposure": 24.54747565645125,
+      "communicable_disease_death_pct": 18.478306374362433,
+      "cluster_id": 3,
+      "size": 55
+    }
+  ],
+  "features": [
+    "gdp_per_capita_constant_2015usd",
+    "urban_population_pct",
+    "pm25_exposure",
+    "communicable_disease_death_pct"
+  ]
+}

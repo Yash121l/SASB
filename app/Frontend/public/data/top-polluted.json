@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "iso3": "QAT",
+      "country_name": "Qatar",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "income_group": "High income",
+      "pm25_mean": 88.1254121307,
+      "pm25_latest": 75.6630329481,
+      "pm25_peak": 97.7000280043,
+      "pm25_trend": -0.8091861542
+    },
+    {
+      "iso3": "NER",
+      "country_name": "Niger",
+      "region": "Sub-Saharan Africa ",
+      "income_group": "Low income",
+      "pm25_mean": 87.5517875741,
+      "pm25_latest": 85.1223455605,
+      "pm25_peak": 107.1446652504,
+      "pm25_trend": -0.1891658072
+    },
+    {
+      "iso3": "MRT",
+      "country_name": "Mauritania",
+      "region": "Sub-Saharan Africa ",
+      "income_group": "Lower middle income",
+      "pm25_mean": 73.6572029384,
+      "pm25_latest": 70.8224442104,
+      "pm25_peak": 83.0360920762,
+      "pm25_trend": 0.1362057222
+    },
+    {
+      "iso3": "BHR",
+      "country_name": "Bahrain",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "income_group": "High income",
+      "pm25_mean": 67.3314131894,
+      "pm25_latest": 58.4950629835,
+      "pm25_peak": 75.9706504898,
+      "pm25_trend": -0.7726425768
+    },
+    {
+      "iso3": "EGY",
+      "country_name": "Egypt, Arab Rep.",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "income_group": "Lower middle income",
+      "pm25_mean": 65.5081875153,
+      "pm25_latest": 54.8587056496,
+      "pm25_peak": 76.4681376216,
+      "pm25_trend": -0.288529066
+    },
+    {
+      "iso3": "IND",
+      "country_name": "India",
+      "region": "South Asia",
+      "income_group": "Lower middle income",
+      "pm25_mean": 63.8279300081,
+      "pm25_latest": 48.3948115196,
+      "pm25_peak": 79.0373957135,
+      "pm25_trend": 0.4336377629
+    }
+  ]
+}
